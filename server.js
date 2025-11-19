@@ -47,21 +47,6 @@ async function ensureDataDir() {
   await fs.mkdir(DATA_DIR, { recursive: true });
 }
 
-function validateAuthHeaders(headers) {
-  const hasAuthorization =
-    typeof headers.authorization === "string" && headers.authorization.trim() !== "";
-  const hasClientToken =
-    typeof headers["client-token"] === "string" && headers["client-token"].trim() !== "";
-
-  if (!hasAuthorization || !hasClientToken) {
-    const message =
-      "Missing Spotify credentials. Set SPOTIFY_AUTHORIZATION and SPOTIFY_CLIENT_TOKEN env vars " +
-      `or add authorization/client-token to ${HEADERS_FILE}.`;
-
-    throw new Error(message);
-  }
-}
-
 async function loadHeaderOverrides() {
   try {
     const raw = await fs.readFile(HEADERS_FILE, "utf-8");
@@ -215,13 +200,17 @@ async function saveProfiles(pool, profiles) {
   }
 }
 
-async function scrapeQueries() {
+async function main() {
   await ensureDataDir();
 
   const headerOverrides = await loadHeaderOverrides();
   const headers = buildRequestHeaders(headerOverrides);
 
-  validateAuthHeaders(headers);
+  if (!headers.authorization || !headers["client-token"]) {
+    console.warn(
+      "Warning: authorization or client-token header is missing. Requests may fail."
+    );
+  }
 
   const pool = new Pool(DB_CONFIG);
 
@@ -254,58 +243,6 @@ async function scrapeQueries() {
   } finally {
     await pool.end();
   }
-}
-
-async function previewQuery(query) {
-  if (!query || typeof query !== "string") {
-    console.error("Please provide a search term after the 'preview' command.");
-    process.exitCode = 1;
-    return;
-  }
-
-  await ensureDataDir();
-
-  const headerOverrides = await loadHeaderOverrides();
-  const headers = buildRequestHeaders(headerOverrides);
-
-  validateAuthHeaders(headers);
-
-  try {
-    const responseJson = await fetchSearchResults(headers, query);
-    const profiles = parseProfiles(responseJson, query);
-
-    if (!profiles.length) {
-      console.warn(`No profiles returned for query: ${query}`);
-      return;
-    }
-
-    console.log(`Found ${profiles.length} profile${profiles.length === 1 ? "" : "s"} for query "${query}":`);
-    profiles.forEach((profile, index) => {
-      console.log(
-        `${index + 1}. ${profile.authorName || "(no author)"} — ${
-          profile.profileTitle || "(no title)"
-        } -> ${profile.url}`
-      );
-    });
-  } catch (error) {
-    console.error(`Failed to preview query "${query}": ${error.message}`);
-    process.exitCode = 1;
-  }
-}
-
-async function main() {
-  const [command = "scrape", arg] = process.argv.slice(2);
-
-  if (command === "preview") {
-    await previewQuery(arg);
-    return;
-  }
-
-  if (command !== "scrape") {
-    console.warn(`Unknown command '${command}'. Falling back to 'scrape'.`);
-  }
-
-  await scrapeQueries();
 }
 
 main().catch((error) => {
