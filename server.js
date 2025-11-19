@@ -200,7 +200,7 @@ async function saveProfiles(pool, profiles) {
   }
 }
 
-async function main() {
+async function scrapeQueries() {
   await ensureDataDir();
 
   const headerOverrides = await loadHeaderOverrides();
@@ -243,6 +243,62 @@ async function main() {
   } finally {
     await pool.end();
   }
+}
+
+async function previewQuery(query) {
+  if (!query || typeof query !== "string") {
+    console.error("Please provide a search term after the 'preview' command.");
+    process.exitCode = 1;
+    return;
+  }
+
+  await ensureDataDir();
+
+  const headerOverrides = await loadHeaderOverrides();
+  const headers = buildRequestHeaders(headerOverrides);
+
+  if (!headers.authorization || !headers["client-token"]) {
+    console.warn(
+      "Warning: authorization or client-token header is missing. Requests may fail."
+    );
+  }
+
+  try {
+    const responseJson = await fetchSearchResults(headers, query);
+    const profiles = parseProfiles(responseJson, query);
+
+    if (!profiles.length) {
+      console.warn(`No profiles returned for query: ${query}`);
+      return;
+    }
+
+    console.log(`Found ${profiles.length} profile${profiles.length === 1 ? "" : "s"} for query "${query}":`);
+    profiles.forEach((profile, index) => {
+      console.log(
+        `${index + 1}. ${profile.authorName || "(no author)"} — ${
+          profile.profileTitle || "(no title)"
+        } -> ${profile.url}`
+      );
+    });
+  } catch (error) {
+    console.error(`Failed to preview query "${query}": ${error.message}`);
+    process.exitCode = 1;
+  }
+}
+
+async function main() {
+  const [command = "scrape", arg] = process.argv.slice(2);
+
+  if (command === "preview") {
+    await previewQuery(arg);
+    return;
+  }
+
+  if (command !== "scrape") {
+    console.warn(`Unknown command '${command}'. Falling back to 'scrape'.`);
+  }
+
+  await scrapeQueries();
 }
 
 main().catch((error) => {
