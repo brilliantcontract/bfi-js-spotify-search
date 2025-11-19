@@ -47,6 +47,21 @@ async function ensureDataDir() {
   await fs.mkdir(DATA_DIR, { recursive: true });
 }
 
+function validateAuthHeaders(headers) {
+  const hasAuthorization =
+    typeof headers.authorization === "string" && headers.authorization.trim() !== "";
+  const hasClientToken =
+    typeof headers["client-token"] === "string" && headers["client-token"].trim() !== "";
+
+  if (!hasAuthorization || !hasClientToken) {
+    const message =
+      "Missing Spotify credentials. Set SPOTIFY_AUTHORIZATION and SPOTIFY_CLIENT_TOKEN env vars " +
+      `or add authorization/client-token to ${HEADERS_FILE}.`;
+
+    throw new Error(message);
+  }
+}
+
 async function loadHeaderOverrides() {
   try {
     const raw = await fs.readFile(HEADERS_FILE, "utf-8");
@@ -206,11 +221,7 @@ async function scrapeQueries() {
   const headerOverrides = await loadHeaderOverrides();
   const headers = buildRequestHeaders(headerOverrides);
 
-  if (!headers.authorization || !headers["client-token"]) {
-    console.warn(
-      "Warning: authorization or client-token header is missing. Requests may fail."
-    );
-  }
+  validateAuthHeaders(headers);
 
   const pool = new Pool(DB_CONFIG);
 
@@ -257,11 +268,7 @@ async function previewQuery(query) {
   const headerOverrides = await loadHeaderOverrides();
   const headers = buildRequestHeaders(headerOverrides);
 
-  if (!headers.authorization || !headers["client-token"]) {
-    console.warn(
-      "Warning: authorization or client-token header is missing. Requests may fail."
-    );
-  }
+  validateAuthHeaders(headers);
 
   try {
     const responseJson = await fetchSearchResults(headers, query);
