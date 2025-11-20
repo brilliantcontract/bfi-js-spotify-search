@@ -214,7 +214,6 @@ function parseProfiles(responseJson, query) {
       if (!data || typeof data !== "object") {
         return null;
       }
-
       const authorName =
         typeof data?.publisher?.name === "string" ? data.publisher.name : "";
       const profileTitle = typeof data?.name === "string" ? data.name : "";
@@ -360,9 +359,10 @@ async function main() {
     for (const query of queries) {
       try {
         const responseJson = await fetchSearchResults(headers, query);
+
         await saveResponseToPage(query, responseJson);
         const profiles = parseProfiles(responseJson, query);
-        console.log(profiles)
+
         if (!profiles.length) {
           console.warn(`No profiles returned for query: ${query}`);
           continue;

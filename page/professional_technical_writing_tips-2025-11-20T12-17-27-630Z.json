@@ -10,37 +10,577 @@
               "coverArt": {
                 "extractedColors": {
                   "colorDark": {
-                    "hex": "#D44400",
+                    "hex": "#2860D0",
                     "isFallback": false
                   }
                 },
                 "sources": [
                   {
                     "height": 64,
-                    "url": "https://i.scdn.co/image/ab6765630000f68dc6d8492e922f471f16e646f7",
+                    "url": "https://i.scdn.co/image/ab6765630000f68d16319cfca72b4679b9e30453",
                     "width": 64
                   },
                   {
                     "height": 300,
-                    "url": "https://i.scdn.co/image/ab67656300005f1fc6d8492e922f471f16e646f7",
+                    "url": "https://i.scdn.co/image/ab67656300005f1f16319cfca72b4679b9e30453",
                     "width": 300
                   },
                   {
                     "height": 640,
-                    "url": "https://i.scdn.co/image/ab6765630000ba8ac6d8492e922f471f16e646f7",
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a16319cfca72b4679b9e30453",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "AUDIO",
+              "name": "Technical Writing Simplified",
+              "publisher": {
+                "name": "Karim Panjwani"
+              },
+              "topics": {
+                "items": [
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Инструкции",
+                    "uri": "spotify:genre:how_to_podcasts-page"
+                  }
+                ]
+              },
+              "uri": "spotify:show:0X7Idc6I96MAdStGd3IW5b"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#3878B8",
+                    "isFallback": false
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68d69fd3d1f8544515bc3ec171d",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1f69fd3d1f8544515bc3ec171d",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a69fd3d1f8544515bc3ec171d",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "AUDIO",
+              "name": "The Not-Boring Tech Writer",
+              "publisher": {
+                "name": "Kate Mueller"
+              },
+              "topics": {
+                "items": [
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Карьера",
+                    "uri": "spotify:genre:0JQ5DAqbMKFMnJvsZliRJL"
+                  }
+                ]
+              },
+              "uri": "spotify:show:4JUeeRjYe2EWcFSkAsbLu8"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#2850C0",
+                    "isFallback": false
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68d827f3df277b841ae1e9b6c83",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1f827f3df277b841ae1e9b6c83",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a827f3df277b841ae1e9b6c83",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "AUDIO",
+              "name": "The Estate Planner’s Podcast",
+              "publisher": {
+                "name": "antonybrinkman"
+              },
+              "topics": {
+                "items": [
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Бизнес",
+                    "uri": "spotify:genre:0JQ5DAqbMKFK0EBNV8Wn6R"
+                  },
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Инструкции",
+                    "uri": "spotify:genre:how_to_podcasts-page"
+                  }
+                ]
+              },
+              "uri": "spotify:show:0B4ME11mwwefb70qGTVQYb"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#535353",
+                    "isFallback": true
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68dbe6b0e1f43b73f2bbea55715",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1fbe6b0e1f43b73f2bbea55715",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8abe6b0e1f43b73f2bbea55715",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "AUDIO",
+              "name": "🐍 Python Програмування",
+              "publisher": {
+                "name": "irudnyts"
+              },
+              "topics": {
+                "items": []
+              },
+              "uri": "spotify:show:32WgfmTF7zI3kQrUIaWpLD"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#305050",
+                    "isFallback": false
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68db1189a3b70587fa030e15a22",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1fb1189a3b70587fa030e15a22",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8ab1189a3b70587fa030e15a22",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "AUDIO",
+              "name": "The Editing Podcast",
+              "publisher": {
+                "name": "Louise Harnby (fiction editor) and Denise Cowle (non-fiction editor)"
+              },
+              "topics": {
+                "items": [
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Книги",
+                    "uri": "spotify:genre:0JQ5DAqbMKFD0Jc9BXRvme"
+                  },
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Художественная литература",
+                    "uri": "spotify:genre:0JQ5IMCbQBLsP2VPtvfx00"
+                  },
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Инструкции",
+                    "uri": "spotify:genre:how_to_podcasts-page"
+                  }
+                ]
+              },
+              "uri": "spotify:show:2heBPJZcR12cG059rL3G4Z"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#1F857E",
+                    "isFallback": false
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68d21720972c327eb77161fa28d",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1f21720972c327eb77161fa28d",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a21720972c327eb77161fa28d",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "AUDIO",
+              "name": "Confident Business English",
+              "publisher": {
+                "name": "Anna Connelly"
+              },
+              "topics": {
+                "items": [
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Образова­ние",
+                    "uri": "spotify:genre:0JQ5DAqbMKFEKYLBUxreJF"
+                  },
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Языки",
+                    "uri": "spotify:genre:0JQ5DAqbMKFGvEvBJcLHVZ"
+                  }
+                ]
+              },
+              "uri": "spotify:show:2V4pJBTEPXON7xf4pHnnD1"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#0050F8",
+                    "isFallback": false
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68de8e98a0e3dab3e32d2a3d500",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1fe8e98a0e3dab3e32d2a3d500",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8ae8e98a0e3dab3e32d2a3d500",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "AUDIO",
+              "name": "Learning English For Work",
+              "publisher": {
+                "name": "BBC News"
+              },
+              "topics": {
+                "items": [
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Образова­ние",
+                    "uri": "spotify:genre:0JQ5DAqbMKFEKYLBUxreJF"
+                  },
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Языки",
+                    "uri": "spotify:genre:0JQ5DAqbMKFGvEvBJcLHVZ"
+                  }
+                ]
+              },
+              "uri": "spotify:show:3wSLMyngTcRLDyI5PKLdmx"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#882028",
+                    "isFallback": false
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68dbbec544ce50096a62949f1d2",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1fbbec544ce50096a62949f1d2",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8abbec544ce50096a62949f1d2",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "AUDIO",
+              "name": "Murdering A Podcast",
+              "publisher": {
+                "name": "Tash & Steve"
+              },
+              "topics": {
+                "items": [
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Документалистика",
+                    "uri": "spotify:genre:0JQ5DAqbMKFCWOPjGCVIq4"
+                  },
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Развеять скуку",
+                    "uri": "spotify:genre:entertainment_v2_podcasts-page"
+                  },
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Личные истории",
+                    "uri": "spotify:genre:0JQ5DAqbMKFIHya0xgnxbE"
+                  }
+                ]
+              },
+              "uri": "spotify:show:103suupEvuz0tNRcRWrXIJ"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#767676",
+                    "isFallback": false
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68daf25f93f11c02aa01a15891b",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1faf25f93f11c02aa01a15891b",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8aaf25f93f11c02aa01a15891b",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "AUDIO",
+              "name": "Подкаст ЖеПеТе",
+              "publisher": {
+                "name": "Влад Кампов, Влад Сидоренко"
+              },
+              "topics": {
+                "items": [
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Карьера",
+                    "uri": "spotify:genre:0JQ5DAqbMKFMnJvsZliRJL"
+                  },
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Технологии",
+                    "uri": "spotify:genre:tech_interviews_podcasts"
+                  }
+                ]
+              },
+              "uri": "spotify:show:36vt4trvlGG23zXO4IK15E"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#777770",
+                    "isFallback": false
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68d6ededdb2a3688b894c07d9b3",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1f6ededdb2a3688b894c07d9b3",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a6ededdb2a3688b894c07d9b3",
                     "width": 640
                   }
                 ]
               },
               "mediaType": "MIXED",
-              "name": "Flow: про книги, бізнес та ідеї",
+              "name": "The Novelry on Writing",
               "publisher": {
-                "name": "Yura Gnatyuk"
+                "name": "The Novelry"
+              },
+              "topics": {
+                "items": [
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Инструкции",
+                    "uri": "spotify:genre:how_to_podcasts-page"
+                  }
+                ]
+              },
+              "uri": "spotify:show:0yR3fTSWwlrR99nuduIImm"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#085868",
+                    "isFallback": false
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68d558ba4a9cf3c346a27ebe11a",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1f558ba4a9cf3c346a27ebe11a",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a558ba4a9cf3c346a27ebe11a",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "AUDIO",
+              "name": "The First Draft Club",
+              "publisher": {
+                "name": "By Mary Adkins | Author & Book Writing Coach"
+              },
+              "topics": {
+                "items": [
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Книги",
+                    "uri": "spotify:genre:0JQ5DAqbMKFD0Jc9BXRvme"
+                  }
+                ]
+              },
+              "uri": "spotify:show:3eZYjuPTDW7MwtjaxiaGau"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#0848A0",
+                    "isFallback": false
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68d322fc4a1fd02e7747fbed569",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1f322fc4a1fd02e7747fbed569",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a322fc4a1fd02e7747fbed569",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "AUDIO",
+              "name": "Юридичний подкаст",
+              "publisher": {
+                "name": "ЖАР Жіночий Антикорупційний Рух"
               },
               "topics": {
                 "items": []
               },
-              "uri": "spotify:show:5ba94TTQIii0z9jZbGFUlK"
+              "uri": "spotify:show:2fAzI69UYAA5sPJ5fTK4pX"
             }
           },
           {
@@ -50,83 +590,43 @@
               "coverArt": {
                 "extractedColors": {
                   "colorDark": {
-                    "hex": "#782808",
+                    "hex": "#427F94",
                     "isFallback": false
                   }
                 },
                 "sources": [
                   {
                     "height": 64,
-                    "url": "https://i.scdn.co/image/ab6765630000f68d127c54316a1c3428d771614e",
+                    "url": "https://i.scdn.co/image/ab6765630000f68d4568b993ecc469c89ac01026",
                     "width": 64
                   },
                   {
                     "height": 300,
-                    "url": "https://i.scdn.co/image/ab67656300005f1f127c54316a1c3428d771614e",
+                    "url": "https://i.scdn.co/image/ab67656300005f1f4568b993ecc469c89ac01026",
                     "width": 300
                   },
                   {
                     "height": 640,
-                    "url": "https://i.scdn.co/image/ab6765630000ba8a127c54316a1c3428d771614e",
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a4568b993ecc469c89ac01026",
                     "width": 640
                   }
                 ]
               },
               "mediaType": "AUDIO",
-              "name": "48 законов власти",
+              "name": "Soft Skills Engineering",
               "publisher": {
-                "name": "Marian Dascal"
-              },
-              "topics": {
-                "items": []
-              },
-              "uri": "spotify:show:2zUbcRSfgrMnfdIaWxf9HI"
-            }
-          },
-          {
-            "__typename": "PodcastResponseWrapper",
-            "data": {
-              "__typename": "Podcast",
-              "coverArt": {
-                "extractedColors": {
-                  "colorDark": {
-                    "hex": "#2848F8",
-                    "isFallback": false
-                  }
-                },
-                "sources": [
-                  {
-                    "height": 64,
-                    "url": "https://i.scdn.co/image/ab6765630000f68d93298be428fe0d990cecfb53",
-                    "width": 64
-                  },
-                  {
-                    "height": 300,
-                    "url": "https://i.scdn.co/image/ab67656300005f1f93298be428fe0d990cecfb53",
-                    "width": 300
-                  },
-                  {
-                    "height": 640,
-                    "url": "https://i.scdn.co/image/ab6765630000ba8a93298be428fe0d990cecfb53",
-                    "width": 640
-                  }
-                ]
-              },
-              "mediaType": "AUDIO",
-              "name": "Бунт у Бібліотеці",
-              "publisher": {
-                "name": "266154"
+                "name": "Jamison Dance and Dave Smith"
               },
               "topics": {
                 "items": [
                   {
                     "__typename": "PodcastTopic",
-                    "title": "Книги",
-                    "uri": "spotify:genre:0JQ5DAqbMKFD0Jc9BXRvme"
+                    "title": "Технологии",
+                    "uri": "spotify:genre:tech_interviews_podcasts"
                   }
                 ]
               },
-              "uri": "spotify:show:3dvzFNBSACcaPYNRfyz1HD"
+              "uri": "spotify:show:59I1XnvAB9fQzSj9SIKCoI"
             }
           },
           {
@@ -136,175 +636,37 @@
               "coverArt": {
                 "extractedColors": {
                   "colorDark": {
-                    "hex": "#502820",
+                    "hex": "#767676",
                     "isFallback": false
                   }
                 },
                 "sources": [
                   {
                     "height": 64,
-                    "url": "https://i.scdn.co/image/ab6765630000f68dcf650a1e091758e2690192c6",
+                    "url": "https://i.scdn.co/image/ab6765630000f68d22b8d72dfe8f41ab86556861",
                     "width": 64
                   },
                   {
                     "height": 300,
-                    "url": "https://i.scdn.co/image/ab67656300005f1fcf650a1e091758e2690192c6",
+                    "url": "https://i.scdn.co/image/ab67656300005f1f22b8d72dfe8f41ab86556861",
                     "width": 300
                   },
                   {
                     "height": 640,
-                    "url": "https://i.scdn.co/image/ab6765630000ba8acf650a1e091758e2690192c6",
-                    "width": 640
-                  }
-                ]
-              },
-              "mediaType": "AUDIO",
-              "name": "ЧИ ЧИТАТИ?",
-              "publisher": {
-                "name": "Женя Янович"
-              },
-              "topics": {
-                "items": [
-                  {
-                    "__typename": "PodcastTopic",
-                    "title": "Книги",
-                    "uri": "spotify:genre:0JQ5DAqbMKFD0Jc9BXRvme"
-                  }
-                ]
-              },
-              "uri": "spotify:show:2brxa9tLuj7dbE3Nj1QMcp"
-            }
-          },
-          {
-            "__typename": "PodcastResponseWrapper",
-            "data": {
-              "__typename": "Podcast",
-              "coverArt": {
-                "extractedColors": {
-                  "colorDark": {
-                    "hex": "#CF4561",
-                    "isFallback": false
-                  }
-                },
-                "sources": [
-                  {
-                    "height": 64,
-                    "url": "https://i.scdn.co/image/ab6765630000f68d4a44782a29149272e607d4e2",
-                    "width": 64
-                  },
-                  {
-                    "height": 300,
-                    "url": "https://i.scdn.co/image/ab67656300005f1f4a44782a29149272e607d4e2",
-                    "width": 300
-                  },
-                  {
-                    "height": 640,
-                    "url": "https://i.scdn.co/image/ab6765630000ba8a4a44782a29149272e607d4e2",
-                    "width": 640
-                  }
-                ]
-              },
-              "mediaType": "AUDIO",
-              "name": "Районна бібліотека",
-              "publisher": {
-                "name": "Maryna Moynihan"
-              },
-              "topics": {
-                "items": [
-                  {
-                    "__typename": "PodcastTopic",
-                    "title": "Книги",
-                    "uri": "spotify:genre:0JQ5DAqbMKFD0Jc9BXRvme"
-                  }
-                ]
-              },
-              "uri": "spotify:show:2Qygdy4dJaTVL5rlQn1QgV"
-            }
-          },
-          {
-            "__typename": "PodcastResponseWrapper",
-            "data": {
-              "__typename": "Podcast",
-              "coverArt": {
-                "extractedColors": {
-                  "colorDark": {
-                    "hex": "#002050",
-                    "isFallback": false
-                  }
-                },
-                "sources": [
-                  {
-                    "height": 64,
-                    "url": "https://i.scdn.co/image/ab6765630000f68dee4ad62ab827dda7419430f7",
-                    "width": 64
-                  },
-                  {
-                    "height": 300,
-                    "url": "https://i.scdn.co/image/ab67656300005f1fee4ad62ab827dda7419430f7",
-                    "width": 300
-                  },
-                  {
-                    "height": 640,
-                    "url": "https://i.scdn.co/image/ab6765630000ba8aee4ad62ab827dda7419430f7",
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a22b8d72dfe8f41ab86556861",
                     "width": 640
                   }
                 ]
               },
               "mediaType": "MIXED",
-              "name": "BiblioBooks",
+              "name": "Дизайн-менеджмент",
               "publisher": {
-                "name": "Сумська публічна бібліотека"
-              },
-              "topics": {
-                "items": [
-                  {
-                    "__typename": "PodcastTopic",
-                    "title": "Книги",
-                    "uri": "spotify:genre:0JQ5DAqbMKFD0Jc9BXRvme"
-                  }
-                ]
-              },
-              "uri": "spotify:show:0ynrcLtTe5i8LQuWC3ZXO9"
-            }
-          },
-          {
-            "__typename": "PodcastResponseWrapper",
-            "data": {
-              "__typename": "Podcast",
-              "coverArt": {
-                "extractedColors": {
-                  "colorDark": {
-                    "hex": "#C65300",
-                    "isFallback": false
-                  }
-                },
-                "sources": [
-                  {
-                    "height": 64,
-                    "url": "https://i.scdn.co/image/ab6765630000f68d80be7ebbd2d9a87085c9d5e7",
-                    "width": 64
-                  },
-                  {
-                    "height": 300,
-                    "url": "https://i.scdn.co/image/ab67656300005f1f80be7ebbd2d9a87085c9d5e7",
-                    "width": 300
-                  },
-                  {
-                    "height": 640,
-                    "url": "https://i.scdn.co/image/ab6765630000ba8a80be7ebbd2d9a87085c9d5e7",
-                    "width": 640
-                  }
-                ]
-              },
-              "mediaType": "MIXED",
-              "name": "Запах Слова",
-              "publisher": {
-                "name": "hromadske"
+                "name": "Vova Safonov &amp; Ivan Rogovchenko"
               },
               "topics": {
                 "items": []
               },
-              "uri": "spotify:show:4HzaKQQzyZ4mq2Pu4aajnF"
+              "uri": "spotify:show:1BV2k87AH47WChArv1LAnz"
             }
           },
           {
@@ -314,32 +676,124 @@
               "coverArt": {
                 "extractedColors": {
                   "colorDark": {
-                    "hex": "#406870",
+                    "hex": "#1800A0",
                     "isFallback": false
                   }
                 },
                 "sources": [
                   {
                     "height": 64,
-                    "url": "https://i.scdn.co/image/ab6765630000f68defaea034f3b27127f0946171",
+                    "url": "https://i.scdn.co/image/ab6765630000f68dba961fa9813d9cb2f7c36cba",
                     "width": 64
                   },
                   {
                     "height": 300,
-                    "url": "https://i.scdn.co/image/ab67656300005f1fefaea034f3b27127f0946171",
+                    "url": "https://i.scdn.co/image/ab67656300005f1fba961fa9813d9cb2f7c36cba",
                     "width": 300
                   },
                   {
                     "height": 640,
-                    "url": "https://i.scdn.co/image/ab6765630000ba8aefaea034f3b27127f0946171",
+                    "url": "https://i.scdn.co/image/ab6765630000ba8aba961fa9813d9cb2f7c36cba",
                     "width": 640
                   }
                 ]
               },
               "mediaType": "AUDIO",
-              "name": "Книги на миллион | бизнес блог",
+              "name": "НЕЛЕГКА ПРОМИСЛОВІСТЬ",
               "publisher": {
-                "name": "Книги на миллион"
+                "name": "НЕЛЕГКА ПРОМИСЛОВІСТЬ"
+              },
+              "topics": {
+                "items": [
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Красота",
+                    "uri": "spotify:genre:0JQ5IMCbQBLlXemwiylToM"
+                  }
+                ]
+              },
+              "uri": "spotify:show:7v2OoduHSJN0vTRfbHqurU"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#0048A8",
+                    "isFallback": false
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68dff554668d08174db991cb581",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1fff554668d08174db991cb581",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8aff554668d08174db991cb581",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "AUDIO",
+              "name": "The Scribe Vibe Podcast",
+              "publisher": {
+                "name": "Janae"
+              },
+              "topics": {
+                "items": [
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Книги",
+                    "uri": "spotify:genre:0JQ5DAqbMKFD0Jc9BXRvme"
+                  }
+                ]
+              },
+              "uri": "spotify:show:1nwgCgOw5jAr6wvW2aQgeZ"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#A02010",
+                    "isFallback": false
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68d06286ea76cb9c6903ebb8b11",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1f06286ea76cb9c6903ebb8b11",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a06286ea76cb9c6903ebb8b11",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "AUDIO",
+              "name": "Your Next Draft",
+              "publisher": {
+                "name": "Alice Sudlow"
               },
               "topics": {
                 "items": [
@@ -348,6 +802,246 @@
                     "title": "Книги",
                     "uri": "spotify:genre:0JQ5DAqbMKFD0Jc9BXRvme"
                   },
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Инструкции",
+                    "uri": "spotify:genre:how_to_podcasts-page"
+                  }
+                ]
+              },
+              "uri": "spotify:show:79HLRqUG3d8kfL6gKoZYFl"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#535353",
+                    "isFallback": true
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68d49dff50a42c40816aa13e469",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1f49dff50a42c40816aa13e469",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a49dff50a42c40816aa13e469",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "MIXED",
+              "name": "CEO Club Podcast",
+              "publisher": {
+                "name": "CEO Club Ukraine"
+              },
+              "topics": {
+                "items": [
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Бизнес",
+                    "uri": "spotify:genre:0JQ5DAqbMKFK0EBNV8Wn6R"
+                  }
+                ]
+              },
+              "uri": "spotify:show:21Q0WiZ3NGHtwFUUP15bRZ"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#D04010",
+                    "isFallback": false
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68d995a231d73038b5764c8f25d",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1f995a231d73038b5764c8f25d",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a995a231d73038b5764c8f25d",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "MIXED",
+              "name": "Науковий BOOM",
+              "publisher": {
+                "name": "Справжній вибух нових знань"
+              },
+              "topics": {
+                "items": [
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Образование",
+                    "uri": "spotify:genre:0JQ5DAqbMKFEKYLBUxreJF"
+                  }
+                ]
+              },
+              "uri": "spotify:show:2LzXjLk4BkBLJvbNt5fdUD"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#CC4D0E",
+                    "isFallback": false
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68d0b39b39c5aa245923b89a1d4",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1f0b39b39c5aa245923b89a1d4",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a0b39b39c5aa245923b89a1d4",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "AUDIO",
+              "name": "SynapseLingo Вивчати англійську",
+              "publisher": {
+                "name": "SynapseLingo"
+              },
+              "topics": {
+                "items": [
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Языки",
+                    "uri": "spotify:genre:0JQ5DAqbMKFGvEvBJcLHVZ"
+                  }
+                ]
+              },
+              "uri": "spotify:show:3EJ8SnzaVPX9FKuhKRWe4j"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#386090",
+                    "isFallback": false
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68d9b8db792e052b816ba7ac9b6",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1f9b8db792e052b816ba7ac9b6",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a9b8db792e052b816ba7ac9b6",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "AUDIO",
+              "name": "я включив не той подкаст",
+              "publisher": {
+                "name": "я включив не той подкаст"
+              },
+              "topics": {
+                "items": [
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Книги",
+                    "uri": "spotify:genre:0JQ5DAqbMKFD0Jc9BXRvme"
+                  },
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Развеять скуку",
+                    "uri": "spotify:genre:entertainment_v2_podcasts-page"
+                  },
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Литература",
+                    "uri": "spotify:genre:0JQ5IMCbQBLAOrkiT9TdGd"
+                  }
+                ]
+              },
+              "uri": "spotify:show:1FGSUh8jEYlfr76vDwCa4q"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#767676",
+                    "isFallback": false
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68d3bbdcecdbe975ff89d5890ae",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1f3bbdcecdbe975ff89d5890ae",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a3bbdcecdbe975ff89d5890ae",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "AUDIO",
+              "name": "People First Podcast",
+              "publisher": {
+                "name": "People First Club"
+              },
+              "topics": {
+                "items": [
                   {
                     "__typename": "PodcastTopic",
                     "title": "Бизнес",
@@ -357,10 +1051,15 @@
                     "__typename": "PodcastTopic",
                     "title": "Карьера",
                     "uri": "spotify:genre:0JQ5DAqbMKFMnJvsZliRJL"
+                  },
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Образова­ние",
+                    "uri": "spotify:genre:0JQ5DAqbMKFEKYLBUxreJF"
                   }
                 ]
               },
-              "uri": "spotify:show:2ekKckLzlmYqWRBRiVwtHE"
+              "uri": "spotify:show:4LvtZ55XsCuZ0QO8jV1BAM"
             }
           },
           {
@@ -370,43 +1069,43 @@
               "coverArt": {
                 "extractedColors": {
                   "colorDark": {
-                    "hex": "#D7400E",
+                    "hex": "#EB005B",
                     "isFallback": false
                   }
                 },
                 "sources": [
                   {
                     "height": 64,
-                    "url": "https://i.scdn.co/image/ab6765630000f68d18850bab8d103daf8f04ba7c",
+                    "url": "https://i.scdn.co/image/ab6765630000f68d5a320b343bdde60e06e47195",
                     "width": 64
                   },
                   {
                     "height": 300,
-                    "url": "https://i.scdn.co/image/ab67656300005f1f18850bab8d103daf8f04ba7c",
+                    "url": "https://i.scdn.co/image/ab67656300005f1f5a320b343bdde60e06e47195",
                     "width": 300
                   },
                   {
                     "height": 640,
-                    "url": "https://i.scdn.co/image/ab6765630000ba8a18850bab8d103daf8f04ba7c",
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a5a320b343bdde60e06e47195",
                     "width": 640
                   }
                 ]
               },
               "mediaType": "AUDIO",
-              "name": "Тонкое искусство пофигизма ",
+              "name": "Аудиокурсы по методу Storytelling (с нуля до В2)",
               "publisher": {
-                "name": "Marian Dascal"
+                "name": "Langme"
               },
               "topics": {
                 "items": [
                   {
                     "__typename": "PodcastTopic",
-                    "title": "Саморазвитие",
-                    "uri": "spotify:genre:0JQ5DAqbMKFLPhtHltUeTr"
+                    "title": "Языки",
+                    "uri": "spotify:genre:0JQ5DAqbMKFGvEvBJcLHVZ"
                   }
                 ]
               },
-              "uri": "spotify:show:1Zid0vJ4BS5BWe54YeZXNZ"
+              "uri": "spotify:show:4HK48uBBE3UNBPJkljXYzO"
             }
           },
           {
@@ -416,43 +1115,53 @@
               "coverArt": {
                 "extractedColors": {
                   "colorDark": {
-                    "hex": "#A4628E",
+                    "hex": "#767676",
                     "isFallback": false
                   }
                 },
                 "sources": [
                   {
                     "height": 64,
-                    "url": "https://i.scdn.co/image/ab6765630000f68d93699b49686fc44edc6b68e8",
+                    "url": "https://i.scdn.co/image/ab6765630000f68d996e20b2fa14a1964be28e38",
                     "width": 64
                   },
                   {
                     "height": 300,
-                    "url": "https://i.scdn.co/image/ab67656300005f1f93699b49686fc44edc6b68e8",
+                    "url": "https://i.scdn.co/image/ab67656300005f1f996e20b2fa14a1964be28e38",
                     "width": 300
                   },
                   {
                     "height": 640,
-                    "url": "https://i.scdn.co/image/ab6765630000ba8a93699b49686fc44edc6b68e8",
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a996e20b2fa14a1964be28e38",
                     "width": 640
                   }
                 ]
               },
               "mediaType": "AUDIO",
-              "name": "Обзор Programmatich",
+              "name": "Це по роботі",
               "publisher": {
-                "name": "Glen"
+                "name": "Андрій Чумаченко"
               },
               "topics": {
                 "items": [
                   {
                     "__typename": "PodcastTopic",
-                    "title": "Книги",
-                    "uri": "spotify:genre:0JQ5DAqbMKFD0Jc9BXRvme"
+                    "title": "Бизнес",
+                    "uri": "spotify:genre:0JQ5DAqbMKFK0EBNV8Wn6R"
+                  },
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Карьера",
+                    "uri": "spotify:genre:0JQ5DAqbMKFMnJvsZliRJL"
+                  },
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Маркетинг",
+                    "uri": "spotify:genre:0JQ5IMCbQBLjlqsYQ6tkLI"
                   }
                 ]
               },
-              "uri": "spotify:show:4mOkVoXBEarIWjQ2zNuxYM"
+              "uri": "spotify:show:0e0w7ulAByGbvbsF031YO6"
             }
           },
           {
@@ -462,43 +1171,43 @@
               "coverArt": {
                 "extractedColors": {
                   "colorDark": {
-                    "hex": "#6A7886",
+                    "hex": "#900000",
                     "isFallback": false
                   }
                 },
                 "sources": [
                   {
                     "height": 64,
-                    "url": "https://i.scdn.co/image/ab6765630000f68d87f4b30dc1367428fbf95934",
+                    "url": "https://i.scdn.co/image/ab6765630000f68d9ed036ffe43729bd1c259701",
                     "width": 64
                   },
                   {
                     "height": 300,
-                    "url": "https://i.scdn.co/image/ab67656300005f1f87f4b30dc1367428fbf95934",
+                    "url": "https://i.scdn.co/image/ab67656300005f1f9ed036ffe43729bd1c259701",
                     "width": 300
                   },
                   {
                     "height": 640,
-                    "url": "https://i.scdn.co/image/ab6765630000ba8a87f4b30dc1367428fbf95934",
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a9ed036ffe43729bd1c259701",
                     "width": 640
                   }
                 ]
               },
               "mediaType": "AUDIO",
-              "name": "Кроки до успіху 🎧 Аудіокниги українською",
+              "name": "Економіка за один урок",
               "publisher": {
-                "name": "Аудіокниги українською 🎧 Саморозвиток і мотивація"
+                "name": "Генрі Хезлітт"
               },
               "topics": {
                 "items": [
                   {
                     "__typename": "PodcastTopic",
-                    "title": "Книги",
-                    "uri": "spotify:genre:0JQ5DAqbMKFD0Jc9BXRvme"
+                    "title": "Наука",
+                    "uri": "spotify:genre:0JQ5IMCbQBLzqj7yQzZb03"
                   }
                 ]
               },
-              "uri": "spotify:show:78706FOZgBN52b1VCu0aou"
+              "uri": "spotify:show:6p9bGHzvOm7C7eJSzswKo1"
             }
           },
           {
@@ -559,46 +1268,6 @@
               "coverArt": {
                 "extractedColors": {
                   "colorDark": {
-                    "hex": "#CC4D3F",
-                    "isFallback": false
-                  }
-                },
-                "sources": [
-                  {
-                    "height": 64,
-                    "url": "https://i.scdn.co/image/ab6765630000f68d75aa048561af4065c5cc9e38",
-                    "width": 64
-                  },
-                  {
-                    "height": 300,
-                    "url": "https://i.scdn.co/image/ab67656300005f1f75aa048561af4065c5cc9e38",
-                    "width": 300
-                  },
-                  {
-                    "height": 640,
-                    "url": "https://i.scdn.co/image/ab6765630000ba8a75aa048561af4065c5cc9e38",
-                    "width": 640
-                  }
-                ]
-              },
-              "mediaType": "MIXED",
-              "name": "Дій! Подкаст про бізнес.",
-              "publisher": {
-                "name": "DiY Podcast"
-              },
-              "topics": {
-                "items": []
-              },
-              "uri": "spotify:show:0wMXxcQkoTIbzJOuyufJ6W"
-            }
-          },
-          {
-            "__typename": "PodcastResponseWrapper",
-            "data": {
-              "__typename": "Podcast",
-              "coverArt": {
-                "extractedColors": {
-                  "colorDark": {
                     "hex": "#767676",
                     "isFallback": false
                   }
@@ -606,46 +1275,36 @@
                 "sources": [
                   {
                     "height": 64,
-                    "url": "https://i.scdn.co/image/ab6765630000f68d3cb8b3f51faf438f383685ee",
+                    "url": "https://i.scdn.co/image/ab6765630000f68dca081b9ab7e05515de782276",
                     "width": 64
                   },
                   {
                     "height": 300,
-                    "url": "https://i.scdn.co/image/ab67656300005f1f3cb8b3f51faf438f383685ee",
+                    "url": "https://i.scdn.co/image/ab67656300005f1fca081b9ab7e05515de782276",
                     "width": 300
                   },
                   {
                     "height": 640,
-                    "url": "https://i.scdn.co/image/ab6765630000ba8a3cb8b3f51faf438f383685ee",
+                    "url": "https://i.scdn.co/image/ab6765630000ba8aca081b9ab7e05515de782276",
                     "width": 640
                   }
                 ]
               },
               "mediaType": "AUDIO",
-              "name": "Фінграмотність на вухо",
+              "name": "Самовивіз",
               "publisher": {
-                "name": "Urban Space Radio"
+                "name": "Свят Федорів та Юра Пронюк"
               },
               "topics": {
                 "items": [
                   {
                     "__typename": "PodcastTopic",
-                    "title": "Бизнес",
-                    "uri": "spotify:genre:0JQ5DAqbMKFK0EBNV8Wn6R"
-                  },
-                  {
-                    "__typename": "PodcastTopic",
-                    "title": "Культура",
-                    "uri": "spotify:genre:0JQ5DAqbMKFLFBJyefzcxG"
-                  },
-                  {
-                    "__typename": "PodcastTopic",
-                    "title": "Здоровье",
-                    "uri": "spotify:genre:0JQ5DAqbMKFxGfN2v0xfBG"
+                    "title": "Саморазвитие",
+                    "uri": "spotify:genre:0JQ5DAqbMKFLPhtHltUeTr"
                   }
                 ]
               },
-              "uri": "spotify:show:3sAgDcTVqsPxTFYcEOi99R"
+              "uri": "spotify:show:36AgVJboGQGHz63OwKPPcm"
             }
           },
           {
@@ -655,227 +1314,43 @@
               "coverArt": {
                 "extractedColors": {
                   "colorDark": {
-                    "hex": "#082868",
+                    "hex": "#4C844C",
                     "isFallback": false
                   }
                 },
                 "sources": [
                   {
                     "height": 64,
-                    "url": "https://i.scdn.co/image/ab6765630000f68d57e98e7e25e3068542827991",
+                    "url": "https://i.scdn.co/image/ab6765630000f68dfeee8b68d3cc3a5e49e0ac30",
                     "width": 64
                   },
                   {
                     "height": 300,
-                    "url": "https://i.scdn.co/image/ab67656300005f1f57e98e7e25e3068542827991",
+                    "url": "https://i.scdn.co/image/ab67656300005f1ffeee8b68d3cc3a5e49e0ac30",
                     "width": 300
                   },
                   {
                     "height": 640,
-                    "url": "https://i.scdn.co/image/ab6765630000ba8a57e98e7e25e3068542827991",
+                    "url": "https://i.scdn.co/image/ab6765630000ba8afeee8b68d3cc3a5e49e0ac30",
                     "width": 640
                   }
                 ]
               },
               "mediaType": "AUDIO",
-              "name": "Ранній Доступ",
+              "name": "Fwdays Tech Talks",
               "publisher": {
-                "name": "Все про ігрову індустрію та геймдизайн"
+                "name": "Fwdays Tech Talks"
               },
               "topics": {
                 "items": [
                   {
                     "__typename": "PodcastTopic",
-                    "title": "Видеоигры",
-                    "uri": "spotify:genre:0JQ5IMCbQBLtqWiaa5oQu8"
+                    "title": "Технологии",
+                    "uri": "spotify:genre:tech_interviews_podcasts"
                   }
                 ]
               },
-              "uri": "spotify:show:3azAPDlZ1YNlrSIFz1mDRV"
-            }
-          },
-          {
-            "__typename": "PodcastResponseWrapper",
-            "data": {
-              "__typename": "Podcast",
-              "coverArt": {
-                "extractedColors": {
-                  "colorDark": {
-                    "hex": "#384038",
-                    "isFallback": false
-                  }
-                },
-                "sources": [
-                  {
-                    "height": 64,
-                    "url": "https://i.scdn.co/image/ab6765630000f68d6cf8534be2aa44ce09711e24",
-                    "width": 64
-                  },
-                  {
-                    "height": 300,
-                    "url": "https://i.scdn.co/image/ab67656300005f1f6cf8534be2aa44ce09711e24",
-                    "width": 300
-                  },
-                  {
-                    "height": 640,
-                    "url": "https://i.scdn.co/image/ab6765630000ba8a6cf8534be2aa44ce09711e24",
-                    "width": 640
-                  }
-                ]
-              },
-              "mediaType": "AUDIO",
-              "name": "Обольщай и властвуй | Харизма",
-              "publisher": {
-                "name": "Книги на миллион"
-              },
-              "topics": {
-                "items": [
-                  {
-                    "__typename": "PodcastTopic",
-                    "title": "Образование",
-                    "uri": "spotify:genre:0JQ5DAqbMKFEKYLBUxreJF"
-                  }
-                ]
-              },
-              "uri": "spotify:show:4m39Cw8tYHIYKg2fMRKv1y"
-            }
-          },
-          {
-            "__typename": "PodcastResponseWrapper",
-            "data": {
-              "__typename": "Podcast",
-              "coverArt": {
-                "extractedColors": {
-                  "colorDark": {
-                    "hex": "#E81028",
-                    "isFallback": false
-                  }
-                },
-                "sources": [
-                  {
-                    "height": 64,
-                    "url": "https://i.scdn.co/image/ab6765630000f68d5f418758e7073d8800498feb",
-                    "width": 64
-                  },
-                  {
-                    "height": 300,
-                    "url": "https://i.scdn.co/image/ab67656300005f1f5f418758e7073d8800498feb",
-                    "width": 300
-                  },
-                  {
-                    "height": 640,
-                    "url": "https://i.scdn.co/image/ab6765630000ba8a5f418758e7073d8800498feb",
-                    "width": 640
-                  }
-                ]
-              },
-              "mediaType": "AUDIO",
-              "name": "дейт апдейт",
-              "publisher": {
-                "name": "Anna Lomakina"
-              },
-              "topics": {
-                "items": [
-                  {
-                    "__typename": "PodcastTopic",
-                    "title": "Отношения",
-                    "uri": "spotify:genre:0JQ5DAqbMKFIbOFW5Avg3a"
-                  }
-                ]
-              },
-              "uri": "spotify:show:7siGPE0hgEXdQTdf5rbZ4b"
-            }
-          },
-          {
-            "__typename": "PodcastResponseWrapper",
-            "data": {
-              "__typename": "Podcast",
-              "coverArt": {
-                "extractedColors": {
-                  "colorDark": {
-                    "hex": "#303840",
-                    "isFallback": false
-                  }
-                },
-                "sources": [
-                  {
-                    "height": 64,
-                    "url": "https://i.scdn.co/image/ab6765630000f68d38287e94932f46452ce92eb8",
-                    "width": 64
-                  },
-                  {
-                    "height": 300,
-                    "url": "https://i.scdn.co/image/ab67656300005f1f38287e94932f46452ce92eb8",
-                    "width": 300
-                  },
-                  {
-                    "height": 640,
-                    "url": "https://i.scdn.co/image/ab6765630000ba8a38287e94932f46452ce92eb8",
-                    "width": 640
-                  }
-                ]
-              },
-              "mediaType": "AUDIO",
-              "name": "Простими словами",
-              "publisher": {
-                "name": "Prostymy Slovamy Media"
-              },
-              "topics": {
-                "items": [
-                  {
-                    "__typename": "PodcastTopic",
-                    "title": "Отношения",
-                    "uri": "spotify:genre:0JQ5DAqbMKFIbOFW5Avg3a"
-                  }
-                ]
-              },
-              "uri": "spotify:show:0fEZ2xSCZFW3OfMMaeNo1x"
-            }
-          },
-          {
-            "__typename": "PodcastResponseWrapper",
-            "data": {
-              "__typename": "Podcast",
-              "coverArt": {
-                "extractedColors": {
-                  "colorDark": {
-                    "hex": "#904008",
-                    "isFallback": false
-                  }
-                },
-                "sources": [
-                  {
-                    "height": 64,
-                    "url": "https://i.scdn.co/image/ab6765630000f68d94188be2756e71d0cc3680e3",
-                    "width": 64
-                  },
-                  {
-                    "height": 300,
-                    "url": "https://i.scdn.co/image/ab67656300005f1f94188be2756e71d0cc3680e3",
-                    "width": 300
-                  },
-                  {
-                    "height": 640,
-                    "url": "https://i.scdn.co/image/ab6765630000ba8a94188be2756e71d0cc3680e3",
-                    "width": 640
-                  }
-                ]
-              },
-              "mediaType": "MIXED",
-              "name": "Book Beats: Аудіокниги українською",
-              "publisher": {
-                "name": "Book Beats: Аудіокниги українською"
-              },
-              "topics": {
-                "items": [
-                  {
-                    "__typename": "PodcastTopic",
-                    "title": "Книги",
-                    "uri": "spotify:genre:0JQ5DAqbMKFD0Jc9BXRvme"
-                  }
-                ]
-              },
-              "uri": "spotify:show:7nK1ha1B2OB5Ejei6tY4IB"
+              "uri": "spotify:show:4kV2dfinUVYCjZgbjY96fR"
             }
           },
           {
@@ -931,469 +1406,43 @@
               "coverArt": {
                 "extractedColors": {
                   "colorDark": {
-                    "hex": "#D04010",
+                    "hex": "#6874AE",
                     "isFallback": false
                   }
                 },
                 "sources": [
                   {
                     "height": 64,
-                    "url": "https://i.scdn.co/image/ab6765630000f68d995a231d73038b5764c8f25d",
+                    "url": "https://i.scdn.co/image/ab6765630000f68d547d2252119b05345a174c85",
                     "width": 64
                   },
                   {
                     "height": 300,
-                    "url": "https://i.scdn.co/image/ab67656300005f1f995a231d73038b5764c8f25d",
+                    "url": "https://i.scdn.co/image/ab67656300005f1f547d2252119b05345a174c85",
                     "width": 300
                   },
                   {
                     "height": 640,
-                    "url": "https://i.scdn.co/image/ab6765630000ba8a995a231d73038b5764c8f25d",
-                    "width": 640
-                  }
-                ]
-              },
-              "mediaType": "MIXED",
-              "name": "Науковий BOOM",
-              "publisher": {
-                "name": "Справжній вибух нових знань"
-              },
-              "topics": {
-                "items": [
-                  {
-                    "__typename": "PodcastTopic",
-                    "title": "Образование",
-                    "uri": "spotify:genre:0JQ5DAqbMKFEKYLBUxreJF"
-                  }
-                ]
-              },
-              "uri": "spotify:show:2LzXjLk4BkBLJvbNt5fdUD"
-            }
-          },
-          {
-            "__typename": "PodcastResponseWrapper",
-            "data": {
-              "__typename": "Podcast",
-              "coverArt": {
-                "extractedColors": {
-                  "colorDark": {
-                    "hex": "#777777",
-                    "isFallback": false
-                  }
-                },
-                "sources": [
-                  {
-                    "height": 64,
-                    "url": "https://i.scdn.co/image/ab6765630000f68d0de37ee385307db6d609e8f5",
-                    "width": 64
-                  },
-                  {
-                    "height": 300,
-                    "url": "https://i.scdn.co/image/ab67656300005f1f0de37ee385307db6d609e8f5",
-                    "width": 300
-                  },
-                  {
-                    "height": 640,
-                    "url": "https://i.scdn.co/image/ab6765630000ba8a0de37ee385307db6d609e8f5",
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a547d2252119b05345a174c85",
                     "width": 640
                   }
                 ]
               },
               "mediaType": "AUDIO",
-              "name": "Nextech",
+              "name": "Фінансова терапія",
               "publisher": {
-                "name": "Влад Ноздрачов"
+                "name": "Sebto"
               },
               "topics": {
                 "items": [
-                  {
-                    "__typename": "PodcastTopic",
-                    "title": "Бизнес",
-                    "uri": "spotify:genre:0JQ5DAqbMKFK0EBNV8Wn6R"
-                  },
                   {
                     "__typename": "PodcastTopic",
                     "title": "Инструкции",
                     "uri": "spotify:genre:how_to_podcasts-page"
-                  },
-                  {
-                    "__typename": "PodcastTopic",
-                    "title": "Маркетинг",
-                    "uri": "spotify:genre:0JQ5IMCbQBLjlqsYQ6tkLI"
                   }
                 ]
               },
-              "uri": "spotify:show:2Z6CB6bqbLh0bhvAPq0u3Z"
-            }
-          },
-          {
-            "__typename": "PodcastResponseWrapper",
-            "data": {
-              "__typename": "Podcast",
-              "coverArt": {
-                "extractedColors": {
-                  "colorDark": {
-                    "hex": "#4B807B",
-                    "isFallback": false
-                  }
-                },
-                "sources": [
-                  {
-                    "height": 64,
-                    "url": "https://i.scdn.co/image/ab6765630000f68d623336c6f9048848f9d28d1f",
-                    "width": 64
-                  },
-                  {
-                    "height": 300,
-                    "url": "https://i.scdn.co/image/ab67656300005f1f623336c6f9048848f9d28d1f",
-                    "width": 300
-                  },
-                  {
-                    "height": 640,
-                    "url": "https://i.scdn.co/image/ab6765630000ba8a623336c6f9048848f9d28d1f",
-                    "width": 640
-                  }
-                ]
-              },
-              "mediaType": "AUDIO",
-              "name": "ОнлайнТерапія",
-              "publisher": {
-                "name": "Educational Impulse"
-              },
-              "topics": {
-                "items": []
-              },
-              "uri": "spotify:show:5s1cvapKoR9rCb8fS50Ebk"
-            }
-          },
-          {
-            "__typename": "PodcastResponseWrapper",
-            "data": {
-              "__typename": "Podcast",
-              "coverArt": {
-                "extractedColors": {
-                  "colorDark": {
-                    "hex": "#004868",
-                    "isFallback": false
-                  }
-                },
-                "sources": [
-                  {
-                    "height": 64,
-                    "url": "https://i.scdn.co/image/ab6765630000f68ddccd75c6647396cd9a407580",
-                    "width": 64
-                  },
-                  {
-                    "height": 300,
-                    "url": "https://i.scdn.co/image/ab67656300005f1fdccd75c6647396cd9a407580",
-                    "width": 300
-                  },
-                  {
-                    "height": 640,
-                    "url": "https://i.scdn.co/image/ab6765630000ba8adccd75c6647396cd9a407580",
-                    "width": 640
-                  }
-                ]
-              },
-              "mediaType": "AUDIO",
-              "name": "БЕСТ РДУГ",
-              "publisher": {
-                "name": "Бабкіна та Лівін"
-              },
-              "topics": {
-                "items": []
-              },
-              "uri": "spotify:show:2jlN4czbqtWBaDSzW9P1S1"
-            }
-          },
-          {
-            "__typename": "PodcastResponseWrapper",
-            "data": {
-              "__typename": "Podcast",
-              "coverArt": {
-                "extractedColors": {
-                  "colorDark": {
-                    "hex": "#D03090",
-                    "isFallback": false
-                  }
-                },
-                "sources": [
-                  {
-                    "height": 64,
-                    "url": "https://i.scdn.co/image/ab6765630000f68d345d798ae14def0f9a374c51",
-                    "width": 64
-                  },
-                  {
-                    "height": 300,
-                    "url": "https://i.scdn.co/image/ab67656300005f1f345d798ae14def0f9a374c51",
-                    "width": 300
-                  },
-                  {
-                    "height": 640,
-                    "url": "https://i.scdn.co/image/ab6765630000ba8a345d798ae14def0f9a374c51",
-                    "width": 640
-                  }
-                ]
-              },
-              "mediaType": "MIXED",
-              "name": "Закрив раунд",
-              "publisher": {
-                "name": "Betinvest"
-              },
-              "topics": {
-                "items": [
-                  {
-                    "__typename": "PodcastTopic",
-                    "title": "Бизнес",
-                    "uri": "spotify:genre:0JQ5DAqbMKFK0EBNV8Wn6R"
-                  }
-                ]
-              },
-              "uri": "spotify:show:0fyly3o3ioCqSWhd4Unj2G"
-            }
-          },
-          {
-            "__typename": "PodcastResponseWrapper",
-            "data": {
-              "__typename": "Podcast",
-              "coverArt": {
-                "extractedColors": {
-                  "colorDark": {
-                    "hex": "#AC6432",
-                    "isFallback": false
-                  }
-                },
-                "sources": [
-                  {
-                    "height": 64,
-                    "url": "https://i.scdn.co/image/ab6765630000f68d56debb8b1fabab74faf8bdb7",
-                    "width": 64
-                  },
-                  {
-                    "height": 300,
-                    "url": "https://i.scdn.co/image/ab67656300005f1f56debb8b1fabab74faf8bdb7",
-                    "width": 300
-                  },
-                  {
-                    "height": 640,
-                    "url": "https://i.scdn.co/image/ab6765630000ba8a56debb8b1fabab74faf8bdb7",
-                    "width": 640
-                  }
-                ]
-              },
-              "mediaType": "AUDIO",
-              "name": "Фантастика",
-              "publisher": {
-                "name": "Взлетаем немедленно !"
-              },
-              "topics": {
-                "items": [
-                  {
-                    "__typename": "PodcastTopic",
-                    "title": "Художественная литература",
-                    "uri": "spotify:genre:0JQ5IMCbQBLsP2VPtvfx00"
-                  },
-                  {
-                    "__typename": "PodcastTopic",
-                    "title": "Научная фантастика",
-                    "uri": "spotify:genre:0JQ5IMCbQBLsP2VPtvfx00"
-                  }
-                ]
-              },
-              "uri": "spotify:show:5RhUmuwewqXI1UKqnv85kp"
-            }
-          },
-          {
-            "__typename": "PodcastResponseWrapper",
-            "data": {
-              "__typename": "Podcast",
-              "coverArt": {
-                "extractedColors": {
-                  "colorDark": {
-                    "hex": "#305880",
-                    "isFallback": false
-                  }
-                },
-                "sources": [
-                  {
-                    "height": 64,
-                    "url": "https://i.scdn.co/image/ab6765630000f68db85a4adc746894589754fa9a",
-                    "width": 64
-                  },
-                  {
-                    "height": 300,
-                    "url": "https://i.scdn.co/image/ab67656300005f1fb85a4adc746894589754fa9a",
-                    "width": 300
-                  },
-                  {
-                    "height": 640,
-                    "url": "https://i.scdn.co/image/ab6765630000ba8ab85a4adc746894589754fa9a",
-                    "width": 640
-                  }
-                ]
-              },
-              "mediaType": "AUDIO",
-              "name": "Дизайн Життя | Медитації та афірмації українською",
-              "publisher": {
-                "name": "Olena Palchuk"
-              },
-              "topics": {
-                "items": []
-              },
-              "uri": "spotify:show:51bAFgFPQbaG19tMpopeDU"
-            }
-          },
-          {
-            "__typename": "PodcastResponseWrapper",
-            "data": {
-              "__typename": "Podcast",
-              "coverArt": {
-                "extractedColors": {
-                  "colorDark": {
-                    "hex": "#535353",
-                    "isFallback": true
-                  }
-                },
-                "sources": [
-                  {
-                    "height": 64,
-                    "url": "https://i.scdn.co/image/ab6765630000f68d50a1e5a5bf4302f57fef0306",
-                    "width": 64
-                  },
-                  {
-                    "height": 300,
-                    "url": "https://i.scdn.co/image/ab67656300005f1f50a1e5a5bf4302f57fef0306",
-                    "width": 300
-                  },
-                  {
-                    "height": 640,
-                    "url": "https://i.scdn.co/image/ab6765630000ba8a50a1e5a5bf4302f57fef0306",
-                    "width": 640
-                  }
-                ]
-              },
-              "mediaType": "AUDIO",
-              "name": "Kult: Podcast",
-              "publisher": {
-                "name": "Kult: Podcast"
-              },
-              "topics": {
-                "items": [
-                  {
-                    "__typename": "PodcastTopic",
-                    "title": "История",
-                    "uri": "spotify:genre:0JQ5DAqbMKFKK9EFSCDuOS"
-                  },
-                  {
-                    "__typename": "PodcastTopic",
-                    "title": "Образова­ние",
-                    "uri": "spotify:genre:0JQ5DAqbMKFEKYLBUxreJF"
-                  },
-                  {
-                    "__typename": "PodcastTopic",
-                    "title": "Литература",
-                    "uri": "spotify:genre:0JQ5IMCbQBLAOrkiT9TdGd"
-                  }
-                ]
-              },
-              "uri": "spotify:show:20wT5zU0ddOjcLCLtA5U4B"
-            }
-          },
-          {
-            "__typename": "PodcastResponseWrapper",
-            "data": {
-              "__typename": "Podcast",
-              "coverArt": {
-                "extractedColors": {
-                  "colorDark": {
-                    "hex": "#1878D0",
-                    "isFallback": false
-                  }
-                },
-                "sources": [
-                  {
-                    "height": 64,
-                    "url": "https://i.scdn.co/image/ab6765630000f68de1a3d9a3d6e7d2f0ddd10d42",
-                    "width": 64
-                  },
-                  {
-                    "height": 300,
-                    "url": "https://i.scdn.co/image/ab67656300005f1fe1a3d9a3d6e7d2f0ddd10d42",
-                    "width": 300
-                  },
-                  {
-                    "height": 640,
-                    "url": "https://i.scdn.co/image/ab6765630000ba8ae1a3d9a3d6e7d2f0ddd10d42",
-                    "width": 640
-                  }
-                ]
-              },
-              "mediaType": "AUDIO",
-              "name": "ШоПоКо",
-              "publisher": {
-                "name": "Anton Pozdnyakov"
-              },
-              "topics": {
-                "items": [
-                  {
-                    "__typename": "PodcastTopic",
-                    "title": "Образование",
-                    "uri": "spotify:genre:0JQ5DAqbMKFEKYLBUxreJF"
-                  }
-                ]
-              },
-              "uri": "spotify:show:0vFERmDPGfoUvGlHjA63tg"
-            }
-          },
-          {
-            "__typename": "PodcastResponseWrapper",
-            "data": {
-              "__typename": "Podcast",
-              "coverArt": {
-                "extractedColors": {
-                  "colorDark": {
-                    "hex": "#D34623",
-                    "isFallback": false
-                  }
-                },
-                "sources": [
-                  {
-                    "height": 64,
-                    "url": "https://i.scdn.co/image/ab6765630000f68d0af1ff3b7068e6c33d9fc829",
-                    "width": 64
-                  },
-                  {
-                    "height": 300,
-                    "url": "https://i.scdn.co/image/ab67656300005f1f0af1ff3b7068e6c33d9fc829",
-                    "width": 300
-                  },
-                  {
-                    "height": 640,
-                    "url": "https://i.scdn.co/image/ab6765630000ba8a0af1ff3b7068e6c33d9fc829",
-                    "width": 640
-                  }
-                ]
-              },
-              "mediaType": "AUDIO",
-              "name": "Кінотижневик Vertigo",
-              "publisher": {
-                "name": "Vertigo"
-              },
-              "topics": {
-                "items": [
-                  {
-                    "__typename": "PodcastTopic",
-                    "title": "Кино",
-                    "uri": "spotify:genre:0JQ5IMCbQBLBylyI0RX5u8"
-                  },
-                  {
-                    "__typename": "PodcastTopic",
-                    "title": "ТВ",
-                    "uri": "spotify:genre:0JQ5IMCbQBLo64OouK01L3"
-                  }
-                ]
-              },
-              "uri": "spotify:show:35nHVCD5zNH7IyOn6TKh3C"
+              "uri": "spotify:show:4T7J6iFtJyAKr1PbbC0UhW"
             }
           }
         ],
@@ -1401,15 +1450,15 @@
           "limit": 30,
           "nextOffset": 30
         },
-        "totalCount": 800
+        "totalCount": 802
       },
-      "query": "digital minimalism for writers"
+      "query": "professional technical writing tips"
     }
   },
   "extensions": {
     "requestIds": {
       "/searchV2": {
-        "search-api": "7412a12d-2749-c7b2-c907-6eed89fbf6e8/JZgO"
+        "search-api": "92c60465-4857-de55-e8f0-c63d5707e404/Li5r"
       }
     }
   }
