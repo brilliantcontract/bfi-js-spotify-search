@@ -149,23 +149,51 @@ function buildUrlFromUri(uri) {
   return `https://open.spotify.com/${type}/${id}`;
 }
 
+function extractPodcastItems(responseJson) {
+  const searchPodcasts = responseJson?.data?.searchPodcasts;
+  const candidateArrays = [
+    searchPodcasts?.items,
+    searchPodcasts?.itemsV2,
+    searchPodcasts?.podcasts?.items,
+    searchPodcasts?.podcastUnionV2?.items,
+  ];
+
+  return candidateArrays.find(Array.isArray) || [];
+}
+
 function parseProfiles(responseJson, query) {
-  const items = responseJson?.data?.searchPodcasts?.items;
-  console.log(items)
-  if (!Array.isArray(items)) {
+  if (Array.isArray(responseJson?.errors) && responseJson.errors.length) {
+    const message = responseJson.errors
+      .map((error) =>
+        typeof error?.message === "string" ? error.message.trim() : ""
+      )
+      .filter(Boolean)
+      .join("; ");
+
+    throw new Error(message || "Spotify API returned an error response.");
+  }
+
+  const items = extractPodcastItems(responseJson);
+
+  if (!Array.isArray(items) || !items.length) {
     return [];
   }
 
   return items
     .map((item) => {
-      if (!item || typeof item !== "object") {
+      const data =
+        item && typeof item === "object" && item.data && typeof item.data === "object"
+          ? item.data
+          : item;
+
+      if (!data || typeof data !== "object") {
         return null;
       }
 
       const authorName =
-        typeof item?.publisher?.name === "string" ? item.publisher.name : "";
-      const profileTitle = typeof item?.name === "string" ? item.name : "";
-      const uri = typeof item?.uri === "string" ? item.uri : "";
+        typeof data?.publisher?.name === "string" ? data.publisher.name : "";
+      const profileTitle = typeof data?.name === "string" ? data.name : "";
+      const uri = typeof data?.uri === "string" ? data.uri : "";
       const url = buildUrlFromUri(uri);
 
       if (!url) {
