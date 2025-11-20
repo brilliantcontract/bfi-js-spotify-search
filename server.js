@@ -80,6 +80,30 @@ function buildRequestHeaders(overrides) {
   );
 }
 
+function validateAuthHeaders(headers) {
+  const missingHeaders = [];
+
+  if (!headers.authorization) {
+    missingHeaders.push("authorization");
+  }
+
+  if (!headers["client-token"]) {
+    missingHeaders.push("client-token");
+  }
+
+  if (missingHeaders.length) {
+    const suggestions =
+      "Set SPOTIFY_AUTH_TOKEN and SPOTIFY_CLIENT_TOKEN environment variables " +
+      `or add them to ${HEADERS_FILE}.`;
+
+    throw new Error(
+      `Missing required header${
+        missingHeaders.length === 1 ? "" : "s"
+      }: ${missingHeaders.join(", ")}. ${suggestions}`
+    );
+  }
+}
+
 function buildRequestBody(query) {
   return {
     variables: {
@@ -221,6 +245,8 @@ async function main() {
 
   const headerOverrides = await loadHeaderOverrides();
   const headers = buildRequestHeaders(headerOverrides);
+
+  validateAuthHeaders(headers);
 
   const pool = new Pool(DB_CONFIG);
 
