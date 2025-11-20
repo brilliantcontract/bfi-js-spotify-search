@@ -871,52 +871,6 @@
               "coverArt": {
                 "extractedColors": {
                   "colorDark": {
-                    "hex": "#C75035",
-                    "isFallback": false
-                  }
-                },
-                "sources": [
-                  {
-                    "height": 64,
-                    "url": "https://i.scdn.co/image/ab6765630000f68d866c19765025f25fe05b9271",
-                    "width": 64
-                  },
-                  {
-                    "height": 300,
-                    "url": "https://i.scdn.co/image/ab67656300005f1f866c19765025f25fe05b9271",
-                    "width": 300
-                  },
-                  {
-                    "height": 640,
-                    "url": "https://i.scdn.co/image/ab6765630000ba8a866c19765025f25fe05b9271",
-                    "width": 640
-                  }
-                ]
-              },
-              "mediaType": "AUDIO",
-              "name": "Наша класика",
-              "publisher": {
-                "name": "Суспільне Подкасти"
-              },
-              "topics": {
-                "items": [
-                  {
-                    "__typename": "PodcastTopic",
-                    "title": "Книги",
-                    "uri": "spotify:genre:0JQ5DAqbMKFD0Jc9BXRvme"
-                  }
-                ]
-              },
-              "uri": "spotify:show:5Aye2TlIrJ80oyKVchZtVm"
-            }
-          },
-          {
-            "__typename": "PodcastResponseWrapper",
-            "data": {
-              "__typename": "Podcast",
-              "coverArt": {
-                "extractedColors": {
-                  "colorDark": {
                     "hex": "#487878",
                     "isFallback": false
                   }
@@ -1249,6 +1203,102 @@
               "coverArt": {
                 "extractedColors": {
                   "colorDark": {
+                    "hex": "#303058",
+                    "isFallback": false
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68d0f5c0a58a5a4325aa146cc04",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1f0f5c0a58a5a4325aa146cc04",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a0f5c0a58a5a4325aa146cc04",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "AUDIO",
+              "name": "Гарри Поттер и методы рационального мышления (Аудиокнига)",
+              "publisher": {
+                "name": "Ali Wodan"
+              },
+              "topics": {
+                "items": [
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Художественная литература",
+                    "uri": "spotify:genre:0JQ5IMCbQBLsP2VPtvfx00"
+                  },
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Научная фантастика",
+                    "uri": "spotify:genre:0JQ5IMCbQBLsP2VPtvfx00"
+                  },
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Истории",
+                    "uri": "spotify:genre:0JQ5DAqbMKFHv2c1dK1Jdi"
+                  }
+                ]
+              },
+              "uri": "spotify:show:4B0a0QjxjzKbgIJ9s1yG3A"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#71777D",
+                    "isFallback": false
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68d68aac6bfd4352025c1eb0946",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1f68aac6bfd4352025c1eb0946",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a68aac6bfd4352025c1eb0946",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "AUDIO",
+              "name": "\"Біологія поведінки людини\" Роберт Сапольскі",
+              "publisher": {
+                "name": "Хмаринка Media Group"
+              },
+              "topics": {
+                "items": []
+              },
+              "uri": "spotify:show:1Lzp2Swnmz0DMUJ1e5NkOf"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
                     "hex": "#0040F8",
                     "isFallback": false
                   }
@@ -1286,52 +1336,6 @@
                 ]
               },
               "uri": "spotify:show:3ot8C4ttO2iDCRUX3B0GMu"
-            }
-          },
-          {
-            "__typename": "PodcastResponseWrapper",
-            "data": {
-              "__typename": "Podcast",
-              "coverArt": {
-                "extractedColors": {
-                  "colorDark": {
-                    "hex": "#777777",
-                    "isFallback": false
-                  }
-                },
-                "sources": [
-                  {
-                    "height": 64,
-                    "url": "https://i.scdn.co/image/ab6765630000f68d06386faa1f3ecbc2be3d7c9e",
-                    "width": 64
-                  },
-                  {
-                    "height": 300,
-                    "url": "https://i.scdn.co/image/ab67656300005f1f06386faa1f3ecbc2be3d7c9e",
-                    "width": 300
-                  },
-                  {
-                    "height": 640,
-                    "url": "https://i.scdn.co/image/ab6765630000ba8a06386faa1f3ecbc2be3d7c9e",
-                    "width": 640
-                  }
-                ]
-              },
-              "mediaType": "AUDIO",
-              "name": "Англійський Експрес",
-              "publisher": {
-                "name": "Англійський Експрес"
-              },
-              "topics": {
-                "items": [
-                  {
-                    "__typename": "PodcastTopic",
-                    "title": "Языки",
-                    "uri": "spotify:genre:0JQ5DAqbMKFGvEvBJcLHVZ"
-                  }
-                ]
-              },
-              "uri": "spotify:show:6baEHY222haZVYUoNblvKl"
             }
           },
           {
@@ -1393,7 +1397,7 @@
   "extensions": {
     "requestIds": {
       "/searchV2": {
-        "search-api": "f565bdfa-5598-52b0-f99f-abaaab133a20/wG0s"
+        "search-api": "1b8ef2e2-73ec-9ac4-f18c-36708b529634/6z2e"
       }
     }
   }
