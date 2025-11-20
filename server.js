@@ -283,7 +283,7 @@ async function main() {
       try {
         const responseJson = await fetchSearchResults(headers, query);
         const profiles = parseProfiles(responseJson, query);
-
+        console.log(profiles)
         if (!profiles.length) {
           console.warn(`No profiles returned for query: ${query}`);
           continue;
