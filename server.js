@@ -39,14 +39,22 @@ function buildAuthorizationHeader(value) {
 
 const DEFAULT_HEADERS = {
   accept: "application/json",
-  "accept-language": "en",
+  "accept-language": "ru",
   "app-platform": "WebPlayer",
   authorization: buildAuthorizationHeader(process.env.SPOTIFY_AUTHORIZATION),
   "client-token": process.env.SPOTIFY_CLIENT_TOKEN?.trim() || "",
   "content-type": "application/json;charset=UTF-8",
   origin: "https://open.spotify.com",
+  priority: "u=1, i",
   referer: "https://open.spotify.com/",
-  "spotify-app-version": "1.2.78.109.g7c0fa141",
+  "sec-ch-ua":
+    '"Chromium";v="142", "Google Chrome";v="142", "Not_A Brand";v="99"',
+  "sec-ch-ua-mobile": "?0",
+  "sec-ch-ua-platform": '"Windows"',
+  "sec-fetch-dest": "empty",
+  "sec-fetch-mode": "cors",
+  "sec-fetch-site": "same-site",
+  "spotify-app-version": "1.2.78.120.g186ece09",
   "user-agent":
     process.env.USER_AGENT ||
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
@@ -81,7 +89,7 @@ function buildRequestHeaders(overrides) {
   });
 
   return Object.fromEntries(
-    Object.entries(headers).filter(([, value]) => value !== "")
+    Object.entries(headers).map(([key, value]) => [key, value]).filter(([, value]) => value !== "")
   );
 }
 
@@ -151,11 +159,15 @@ function buildUrlFromUri(uri) {
 
 function extractPodcastItems(responseJson) {
   const searchPodcasts = responseJson?.data?.searchPodcasts;
+  const searchPodcastsV2 = responseJson?.data?.searchPodcastsV2;
   const candidateArrays = [
     searchPodcasts?.items,
     searchPodcasts?.itemsV2,
     searchPodcasts?.podcasts?.items,
     searchPodcasts?.podcastUnionV2?.items,
+    searchPodcastsV2?.items,
+    searchPodcastsV2?.podcasts?.items,
+    searchPodcastsV2?.podcastUnionV2?.items,
   ];
 
   return candidateArrays.find(Array.isArray) || [];
