@@ -26,14 +26,23 @@ const FETCH_QUERIES_SQL = "select query from spotify.not_scraped_queries_vw";
 const INSERT_SEARCH_SQL =
   "insert into spotify.searches(author_name, profile_title, query, url) values ($1, $2, $3, $4)";
 
+function buildAuthorizationHeader(value) {
+  if (!value || typeof value !== "string") {
+    return "";
+  }
+
+  const trimmed = value.trim();
+  return trimmed.toLowerCase().startsWith("bearer")
+    ? trimmed
+    : `Bearer ${trimmed}`;
+}
+
 const DEFAULT_HEADERS = {
   accept: "application/json",
   "accept-language": "en",
   "app-platform": "WebPlayer",
-  authorization: process.env.SPOTIFY_AUTHORIZATION
-    ? `Bearer ${process.env.SPOTIFY_AUTHORIZATION}`
-    : "",
-  "client-token": process.env.SPOTIFY_CLIENT_TOKEN || "",
+  authorization: buildAuthorizationHeader(process.env.SPOTIFY_AUTHORIZATION),
+  "client-token": process.env.SPOTIFY_CLIENT_TOKEN?.trim() || "",
   "content-type": "application/json;charset=UTF-8",
   origin: "https://open.spotify.com",
   referer: "https://open.spotify.com/",
@@ -74,6 +83,28 @@ function buildRequestHeaders(overrides) {
   return Object.fromEntries(
     Object.entries(headers).filter(([, value]) => value !== "")
   );
+}
+
+function validateAuthHeaders(headers) {
+  const missing = [];
+
+  if (!headers.authorization) {
+    missing.push(
+      "authorization (Bearer token). Supply SPOTIFY_AUTHORIZATION env var or data/headers.json"
+    );
+  }
+
+  if (!headers["client-token"]) {
+    missing.push(
+      "client-token. Supply SPOTIFY_CLIENT_TOKEN env var or data/headers.json"
+    );
+  }
+
+  if (missing.length) {
+    throw new Error(
+      `Missing required Spotify auth headers: ${missing.join("; ")}. Requests will fail with 401 until these are provided.`
+    );
+  }
 }
 
 function buildRequestBody(query) {
@@ -206,11 +237,7 @@ async function main() {
   const headerOverrides = await loadHeaderOverrides();
   const headers = buildRequestHeaders(headerOverrides);
 
-  if (!headers.authorization || !headers["client-token"]) {
-    console.warn(
-      "Warning: authorization or client-token header is missing. Requests may fail."
-    );
-  }
+  validateAuthHeaders(headers);
 
   const pool = new Pool(DB_CONFIG);
 
