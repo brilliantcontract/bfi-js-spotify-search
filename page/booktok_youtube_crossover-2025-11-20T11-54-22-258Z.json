@@ -1,0 +1,1394 @@
+{
+  "data": {
+    "searchV2": {
+      "podcasts": {
+        "items": [
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#537C91",
+                    "isFallback": false
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68d893029a69f4d37ae146520c4",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1f893029a69f4d37ae146520c4",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a893029a69f4d37ae146520c4",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "AUDIO",
+              "name": "All the Young Dudes (читання українською)",
+              "publisher": {
+                "name": "cry_sana"
+              },
+              "topics": {
+                "items": [
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Книги",
+                    "uri": "spotify:genre:0JQ5DAqbMKFD0Jc9BXRvme"
+                  }
+                ]
+              },
+              "uri": "spotify:show:3N7s4FqKpdgGixN4QeF8ZH"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#002050",
+                    "isFallback": false
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68dee4ad62ab827dda7419430f7",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1fee4ad62ab827dda7419430f7",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8aee4ad62ab827dda7419430f7",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "MIXED",
+              "name": "BiblioBooks",
+              "publisher": {
+                "name": "Сумська публічна бібліотека"
+              },
+              "topics": {
+                "items": [
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Книги",
+                    "uri": "spotify:genre:0JQ5DAqbMKFD0Jc9BXRvme"
+                  }
+                ]
+              },
+              "uri": "spotify:show:0ynrcLtTe5i8LQuWC3ZXO9"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#904008",
+                    "isFallback": false
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68d94188be2756e71d0cc3680e3",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1f94188be2756e71d0cc3680e3",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a94188be2756e71d0cc3680e3",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "MIXED",
+              "name": "Book Beats: Аудіокниги українською",
+              "publisher": {
+                "name": "Book Beats: Аудіокниги українською"
+              },
+              "topics": {
+                "items": [
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Книги",
+                    "uri": "spotify:genre:0JQ5DAqbMKFD0Jc9BXRvme"
+                  }
+                ]
+              },
+              "uri": "spotify:show:7nK1ha1B2OB5Ejei6tY4IB"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#2848F8",
+                    "isFallback": false
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68d93298be428fe0d990cecfb53",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1f93298be428fe0d990cecfb53",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a93298be428fe0d990cecfb53",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "AUDIO",
+              "name": "Бунт у Бібліотеці",
+              "publisher": {
+                "name": "266154"
+              },
+              "topics": {
+                "items": [
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Книги",
+                    "uri": "spotify:genre:0JQ5DAqbMKFD0Jc9BXRvme"
+                  }
+                ]
+              },
+              "uri": "spotify:show:3dvzFNBSACcaPYNRfyz1HD"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#535353",
+                    "isFallback": true
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68d2dc31b7621cd15f4d1bca6d8",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1f2dc31b7621cd15f4d1bca6d8",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a2dc31b7621cd15f4d1bca6d8",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "AUDIO",
+              "name": "Агата Крісті. Забуте вбивство",
+              "publisher": {
+                "name": "Лесь Перистий"
+              },
+              "topics": {
+                "items": [
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Художественная литература",
+                    "uri": "spotify:genre:0JQ5IMCbQBLsP2VPtvfx00"
+                  }
+                ]
+              },
+              "uri": "spotify:show:4YeuYW7614MPwY4QUngYwc"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#D80020",
+                    "isFallback": false
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68dd936798a43e0cd24f96b53a2",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1fd936798a43e0cd24f96b53a2",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8ad936798a43e0cd24f96b53a2",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "AUDIO",
+              "name": "Аудіокниги від Олексія Олексієвича",
+              "publisher": {
+                "name": "Olexii Olexievych "
+              },
+              "topics": {
+                "items": [
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Книги",
+                    "uri": "spotify:genre:0JQ5DAqbMKFD0Jc9BXRvme"
+                  }
+                ]
+              },
+              "uri": "spotify:show:6B3DCNu1BDqJq03ibg8NHA"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#6A7886",
+                    "isFallback": false
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68d87f4b30dc1367428fbf95934",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1f87f4b30dc1367428fbf95934",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a87f4b30dc1367428fbf95934",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "AUDIO",
+              "name": "Кроки до успіху 🎧 Аудіокниги українською",
+              "publisher": {
+                "name": "Аудіокниги українською 🎧 Саморозвиток і мотивація"
+              },
+              "topics": {
+                "items": [
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Книги",
+                    "uri": "spotify:genre:0JQ5DAqbMKFD0Jc9BXRvme"
+                  }
+                ]
+              },
+              "uri": "spotify:show:78706FOZgBN52b1VCu0aou"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#535353",
+                    "isFallback": true
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68dcddfd480de355bd8a48ef4e7",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1fcddfd480de355bd8a48ef4e7",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8acddfd480de355bd8a48ef4e7",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "AUDIO",
+              "name": "Агата Крісті. Тринадцять загадкових випадків",
+              "publisher": {
+                "name": "Лесь Перистий"
+              },
+              "topics": {
+                "items": [
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Книги",
+                    "uri": "spotify:genre:0JQ5DAqbMKFD0Jc9BXRvme"
+                  }
+                ]
+              },
+              "uri": "spotify:show:5U4jkXIzmbLBvzM57DNXXD"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#001048",
+                    "isFallback": false
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68dd2b01315087b256983446362",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1fd2b01315087b256983446362",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8ad2b01315087b256983446362",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "AUDIO",
+              "name": "ШВестерн",
+              "publisher": {
+                "name": "ШВестерн"
+              },
+              "topics": {
+                "items": [
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Отношения",
+                    "uri": "spotify:genre:0JQ5DAqbMKFIbOFW5Avg3a"
+                  }
+                ]
+              },
+              "uri": "spotify:show:6klJyph4OUEK3KT8vjtGGE"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#002870",
+                    "isFallback": false
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/fce2b1f3d5ddf7133156bc301af5e4ad44366d48",
+                    "width": 64
+                  },
+                  {
+                    "height": 268,
+                    "url": "https://i.scdn.co/image/b6d311c3c5b59d0aa33feef228a8ee1c095ff339",
+                    "width": 268
+                  }
+                ]
+              },
+              "mediaType": "AUDIO",
+              "name": "Аудіобіблія українською",
+              "publisher": {
+                "name": "Українське Біблійне Товариство"
+              },
+              "topics": {
+                "items": [
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Культура",
+                    "uri": "spotify:genre:0JQ5DAqbMKFLFBJyefzcxG"
+                  },
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Общество",
+                    "uri": "spotify:genre:0JQ5DAqbMKFLFBJyefzcxG"
+                  }
+                ]
+              },
+              "uri": "spotify:show:7IEPRpSRSfN5DwwQwxhX4P"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#301840",
+                    "isFallback": false
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68d1355c3b51b2eae8c76cd29f9",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1f1355c3b51b2eae8c76cd29f9",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a1355c3b51b2eae8c76cd29f9",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "MIXED",
+              "name": "настя розкаже",
+              "publisher": {
+                "name": "ukrreddit"
+              },
+              "topics": {
+                "items": []
+              },
+              "uri": "spotify:show:2j8qntPPqt3AaBYhxhBFXu"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#535353",
+                    "isFallback": true
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68d64285b52b7fb0dd464843280",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1f64285b52b7fb0dd464843280",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a64285b52b7fb0dd464843280",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "AUDIO",
+              "name": "АПВОУТ-ИСТОРИИ ИЗ РЕДДИТ",
+              "publisher": {
+                "name": "апвоут"
+              },
+              "topics": {
+                "items": [
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "История",
+                    "uri": "spotify:genre:0JQ5DAqbMKFKK9EFSCDuOS"
+                  }
+                ]
+              },
+              "uri": "spotify:show:4UC8VGqTMnga03RNCx0NyH"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#1038C8",
+                    "isFallback": false
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68d51284b6d131ed08a72c004ad",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1f51284b6d131ed08a72c004ad",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a51284b6d131ed08a72c004ad",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "AUDIO",
+              "name": "Аудіокниги українською Студія Калідор",
+              "publisher": {
+                "name": "Студія Калідор"
+              },
+              "topics": {
+                "items": [
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Книги",
+                    "uri": "spotify:genre:0JQ5DAqbMKFD0Jc9BXRvme"
+                  }
+                ]
+              },
+              "uri": "spotify:show:3SqC4O4VLMa28cT1KmP0TN"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#CF4561",
+                    "isFallback": false
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68d4a44782a29149272e607d4e2",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1f4a44782a29149272e607d4e2",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a4a44782a29149272e607d4e2",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "AUDIO",
+              "name": "Районна бібліотека",
+              "publisher": {
+                "name": "Maryna Moynihan"
+              },
+              "topics": {
+                "items": [
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Книги",
+                    "uri": "spotify:genre:0JQ5DAqbMKFD0Jc9BXRvme"
+                  }
+                ]
+              },
+              "uri": "spotify:show:2Qygdy4dJaTVL5rlQn1QgV"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#487890",
+                    "isFallback": false
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68d6116d5ecc8586b85b6c229a5",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1f6116d5ecc8586b85b6c229a5",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a6116d5ecc8586b85b6c229a5",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "AUDIO",
+              "name": "Слуханка",
+              "publisher": {
+                "name": "Слуханка"
+              },
+              "topics": {
+                "items": [
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Книги",
+                    "uri": "spotify:genre:0JQ5DAqbMKFD0Jc9BXRvme"
+                  }
+                ]
+              },
+              "uri": "spotify:show:212mz7ZxkppCa6vNN72BzL"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#82782E",
+                    "isFallback": false
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68dfa09541268ca4ee39282b117",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1ffa09541268ca4ee39282b117",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8afa09541268ca4ee39282b117",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "AUDIO",
+              "name": "Читання Біблії ",
+              "publisher": {
+                "name": "Mr. Dirua"
+              },
+              "topics": {
+                "items": []
+              },
+              "uri": "spotify:show:4qPRzJR4BY15SpGyMJOnOg"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#E1331D",
+                    "isFallback": false
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68dd024182a02c17010f2724010",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1fd024182a02c17010f2724010",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8ad024182a02c17010f2724010",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "AUDIO",
+              "name": "комік+історик",
+              "publisher": {
+                "name": "комік+історик"
+              },
+              "topics": {
+                "items": [
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "История",
+                    "uri": "spotify:genre:0JQ5DAqbMKFKK9EFSCDuOS"
+                  }
+                ]
+              },
+              "uri": "spotify:show:57U4LAk1KymEnNqlukiGXI"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#6C788A",
+                    "isFallback": false
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68dc4692f648f5bb4550a72c69c",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1fc4692f648f5bb4550a72c69c",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8ac4692f648f5bb4550a72c69c",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "AUDIO",
+              "name": "をリス",
+              "publisher": {
+                "name": "をリス"
+              },
+              "topics": {
+                "items": [
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Музыка",
+                    "uri": "spotify:genre:music_interviews_podcasts-page"
+                  }
+                ]
+              },
+              "uri": "spotify:show:4H0jKRZpCDAmpuzJ2IrF1H"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#481000",
+                    "isFallback": false
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68df2c38dcb8abe8026843ee833",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1ff2c38dcb8abe8026843ee833",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8af2c38dcb8abe8026843ee833",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "MIXED",
+              "name": "Моторошні історії, тру крайм, жахи, аудіокниги",
+              "publisher": {
+                "name": "Бісів Кіт"
+              },
+              "topics": {
+                "items": [
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Художественная литература",
+                    "uri": "spotify:genre:0JQ5IMCbQBLsP2VPtvfx00"
+                  }
+                ]
+              },
+              "uri": "spotify:show:1lHXK0VP6nxKMrViZ5g1lt"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#780820",
+                    "isFallback": false
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68d0987223c65159257c4d32b4f",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1f0987223c65159257c4d32b4f",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a0987223c65159257c4d32b4f",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "AUDIO",
+              "name": "Хірург",
+              "publisher": {
+                "name": "Knigavgolosi"
+              },
+              "topics": {
+                "items": [
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Книги",
+                    "uri": "spotify:genre:0JQ5DAqbMKFD0Jc9BXRvme"
+                  }
+                ]
+              },
+              "uri": "spotify:show:6rQ52Rcbk0eHARML1Y6CN7"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#781010",
+                    "isFallback": false
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68da7c1370a11c1797609ce840b",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1fa7c1370a11c1797609ce840b",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8aa7c1370a11c1797609ce840b",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "AUDIO",
+              "name": "Дівчата вбивають час",
+              "publisher": {
+                "name": "Іра Левицька, Настя Цінкевич"
+              },
+              "topics": {
+                "items": [
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Реальные\nкриминаль­ные\nистории",
+                    "uri": "spotify:genre:0JQ5DAqbMKFJxB6x6hfvv0"
+                  }
+                ]
+              },
+              "uri": "spotify:show:49AFryho8BcwxBq5VrjZCa"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#6E7979",
+                    "isFallback": false
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68da834c8819da29d58f155358c",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1fa834c8819da29d58f155358c",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8aa834c8819da29d58f155358c",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "AUDIO",
+              "name": "Аудіокниги",
+              "publisher": {
+                "name": "Центр МПЗ Збройних Сил України"
+              },
+              "topics": {
+                "items": [
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Книги",
+                    "uri": "spotify:genre:0JQ5DAqbMKFD0Jc9BXRvme"
+                  }
+                ]
+              },
+              "uri": "spotify:show:7iutDRgblzqjEoXkue8LJQ"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#D44400",
+                    "isFallback": false
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68dc6d8492e922f471f16e646f7",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1fc6d8492e922f471f16e646f7",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8ac6d8492e922f471f16e646f7",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "MIXED",
+              "name": "Flow: про книги, бізнес та ідеї",
+              "publisher": {
+                "name": "Yura Gnatyuk"
+              },
+              "topics": {
+                "items": []
+              },
+              "uri": "spotify:show:5ba94TTQIii0z9jZbGFUlK"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#C65300",
+                    "isFallback": false
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68d80be7ebbd2d9a87085c9d5e7",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1f80be7ebbd2d9a87085c9d5e7",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a80be7ebbd2d9a87085c9d5e7",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "MIXED",
+              "name": "Запах Слова",
+              "publisher": {
+                "name": "hromadske"
+              },
+              "topics": {
+                "items": []
+              },
+              "uri": "spotify:show:4HzaKQQzyZ4mq2Pu4aajnF"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#C75035",
+                    "isFallback": false
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68dc3a2bb9b49310692f24672ea",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1fc3a2bb9b49310692f24672ea",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8ac3a2bb9b49310692f24672ea",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "AUDIO",
+              "name": "Наші детективи",
+              "publisher": {
+                "name": "Суспільне мовлення"
+              },
+              "topics": {
+                "items": [
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Книги",
+                    "uri": "spotify:genre:0JQ5DAqbMKFD0Jc9BXRvme"
+                  }
+                ]
+              },
+              "uri": "spotify:show:7uc9RUBzT6cpEhMwuE3BVM"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#3D8181",
+                    "isFallback": false
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68d684a94c44573e1f9fe809615",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1f684a94c44573e1f9fe809615",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a684a94c44573e1f9fe809615",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "AUDIO",
+              "name": "Шева, Леся і Франко",
+              "publisher": {
+                "name": "Дарина Романська"
+              },
+              "topics": {
+                "items": [
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Книги",
+                    "uri": "spotify:genre:0JQ5DAqbMKFD0Jc9BXRvme"
+                  }
+                ]
+              },
+              "uri": "spotify:show:2tOcVEoSbuZE6Y8TLkADPW"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#303838",
+                    "isFallback": false
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68d79c6804f7b56b338c504a0dc",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1f79c6804f7b56b338c504a0dc",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a79c6804f7b56b338c504a0dc",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "AUDIO",
+              "name": "Повна хронологія всесвіту Warhammer 40000",
+              "publisher": {
+                "name": "Oleksii Kolodiazhnyi"
+              },
+              "topics": {
+                "items": [
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Художественная литература",
+                    "uri": "spotify:genre:0JQ5IMCbQBLsP2VPtvfx00"
+                  }
+                ]
+              },
+              "uri": "spotify:show:51BhZ1Y11iIKZ2XqsRaGrH"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#E62608",
+                    "isFallback": false
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68dbcaf62dff805327d3e49b838",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1fbcaf62dff805327d3e49b838",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8abcaf62dff805327d3e49b838",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "AUDIO",
+              "name": "Аудіокниги для дітей СВІТ КАЗОК ",
+              "publisher": {
+                "name": "Victoria Tkachuk"
+              },
+              "topics": {
+                "items": [
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Книги",
+                    "uri": "spotify:genre:0JQ5DAqbMKFD0Jc9BXRvme"
+                  }
+                ]
+              },
+              "uri": "spotify:show:5OvjWC2KgO6zizmjmKmE6w"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#AC6432",
+                    "isFallback": false
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68d56debb8b1fabab74faf8bdb7",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1f56debb8b1fabab74faf8bdb7",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a56debb8b1fabab74faf8bdb7",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "AUDIO",
+              "name": "Фантастика",
+              "publisher": {
+                "name": "Взлетаем немедленно !"
+              },
+              "topics": {
+                "items": [
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Художественная литература",
+                    "uri": "spotify:genre:0JQ5IMCbQBLsP2VPtvfx00"
+                  },
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Научная фантастика",
+                    "uri": "spotify:genre:0JQ5IMCbQBLsP2VPtvfx00"
+                  }
+                ]
+              },
+              "uri": "spotify:show:5RhUmuwewqXI1UKqnv85kp"
+            }
+          },
+          {
+            "__typename": "PodcastResponseWrapper",
+            "data": {
+              "__typename": "Podcast",
+              "coverArt": {
+                "extractedColors": {
+                  "colorDark": {
+                    "hex": "#303058",
+                    "isFallback": false
+                  }
+                },
+                "sources": [
+                  {
+                    "height": 64,
+                    "url": "https://i.scdn.co/image/ab6765630000f68d0f5c0a58a5a4325aa146cc04",
+                    "width": 64
+                  },
+                  {
+                    "height": 300,
+                    "url": "https://i.scdn.co/image/ab67656300005f1f0f5c0a58a5a4325aa146cc04",
+                    "width": 300
+                  },
+                  {
+                    "height": 640,
+                    "url": "https://i.scdn.co/image/ab6765630000ba8a0f5c0a58a5a4325aa146cc04",
+                    "width": 640
+                  }
+                ]
+              },
+              "mediaType": "AUDIO",
+              "name": "Гарри Поттер и методы рационального мышления (Аудиокнига)",
+              "publisher": {
+                "name": "Ali Wodan"
+              },
+              "topics": {
+                "items": [
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Художественная литература",
+                    "uri": "spotify:genre:0JQ5IMCbQBLsP2VPtvfx00"
+                  },
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Научная фантастика",
+                    "uri": "spotify:genre:0JQ5IMCbQBLsP2VPtvfx00"
+                  },
+                  {
+                    "__typename": "PodcastTopic",
+                    "title": "Истории",
+                    "uri": "spotify:genre:0JQ5DAqbMKFHv2c1dK1Jdi"
+                  }
+                ]
+              },
+              "uri": "spotify:show:4B0a0QjxjzKbgIJ9s1yG3A"
+            }
+          }
+        ],
+        "pagingInfo": {
+          "limit": 30,
+          "nextOffset": 30
+        },
+        "totalCount": 800
+      },
+      "query": "booktok youtube crossover"
+    }
+  },
+  "extensions": {
+    "requestIds": {
+      "/searchV2": {
+        "search-api": "e5077221-9444-b590-fd5e-2e6971d66460/7xtJ"
+      }
+    }
+  }
+}

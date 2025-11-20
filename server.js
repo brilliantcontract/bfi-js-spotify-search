@@ -11,7 +11,6 @@ const __dirname = path.dirname(__filename);
 
 const DATA_DIR = process.env.DATA_DIR || path.join(__dirname, "data");
 const HEADERS_FILE = path.join(DATA_DIR, "headers.json");
-const PAGE_DIR = path.join(__dirname, "page");
 
 const API_URL = "https://api-partner.spotify.com/pathfinder/v2/query";
 
@@ -71,10 +70,6 @@ const DEFAULT_HEADERS = {
 
 async function ensureDataDir() {
   await fs.mkdir(DATA_DIR, { recursive: true });
-}
-
-async function ensurePageDir() {
-  await fs.mkdir(PAGE_DIR, { recursive: true });
 }
 
 async function loadHeaderOverrides() {
@@ -230,25 +225,6 @@ function parseProfiles(responseJson, query) {
     .filter(Boolean);
 }
 
-function buildPageFilePath(query) {
-  const cleanedQuery =
-    typeof query === "string"
-      ? query.toLowerCase().trim().replace(/[^a-z0-9-_]+/gi, "_").replace(/_+/g, "_")
-      : "";
-
-  const baseName = cleanedQuery || "response";
-  const timestamp = new Date().toISOString().replace(/[:.]/g, "-");
-
-  return path.join(PAGE_DIR, `${baseName}-${timestamp}.json`);
-}
-
-async function saveResponseToPage(query, responseJson) {
-  const filePath = buildPageFilePath(query);
-  const content = JSON.stringify(responseJson, null, 2);
-
-  await fs.writeFile(filePath, content, "utf-8");
-}
-
 async function fetchSearchResults(headers, query) {
   if (USE_SCRAPE_NINJA) {
     const scrapeResponse = await fetch(SCRAPE_NINJA_ENDPOINT, {
@@ -338,7 +314,6 @@ async function saveProfiles(pool, profiles) {
 
 async function main() {
   await ensureDataDir();
-  await ensurePageDir();
 
   const headerOverrides = await loadHeaderOverrides();
   const headers = buildRequestHeaders(headerOverrides);
@@ -360,7 +335,6 @@ async function main() {
     for (const query of queries) {
       try {
         const responseJson = await fetchSearchResults(headers, query);
-        await saveResponseToPage(query, responseJson);
         const profiles = parseProfiles(responseJson, query);
         console.log(profiles)
         if (!profiles.length) {
