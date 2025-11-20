@@ -30,10 +30,6 @@ const DEFAULT_HEADERS = {
   accept: "application/json",
   "accept-language": "en",
   "app-platform": "WebPlayer",
-  authorization: process.env.SPOTIFY_AUTHORIZATION
-    ? `Bearer ${process.env.SPOTIFY_AUTHORIZATION}`
-    : "",
-  "client-token": process.env.SPOTIFY_CLIENT_TOKEN || "",
   "content-type": "application/json;charset=UTF-8",
   origin: "https://open.spotify.com",
   referer: "https://open.spotify.com/",
@@ -66,6 +62,10 @@ function buildRequestHeaders(overrides) {
   const headers = { ...DEFAULT_HEADERS };
 
   Object.entries(overrides || {}).forEach(([key, value]) => {
+    if (["authorization", "client-token"].includes(key.toLowerCase())) {
+      return;
+    }
+
     if (typeof value === "string" && value.trim() !== "") {
       headers[key.toLowerCase()] = value.trim();
     }
@@ -217,12 +217,6 @@ async function main() {
 
   const headerOverrides = await loadHeaderOverrides();
   const headers = buildRequestHeaders(headerOverrides);
-
-  if (!headers.authorization || !headers["client-token"]) {
-    console.warn(
-      "Warning: authorization or client-token header is missing. Requests may fail."
-    );
-  }
 
   const pool = new Pool(DB_CONFIG);
 
