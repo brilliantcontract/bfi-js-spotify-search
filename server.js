@@ -61,11 +61,15 @@ async function loadHeaderOverrides() {
 function buildRequestHeaders(overrides) {
   const headers = { ...DEFAULT_HEADERS };
 
-  Object.entries(overrides || {}).forEach(([key, value]) => {
-    if (["authorization", "client-token"].includes(key.toLowerCase())) {
-      return;
-    }
+  if (process.env.SPOTIFY_AUTH_TOKEN) {
+    headers.authorization = `Bearer ${process.env.SPOTIFY_AUTH_TOKEN.trim()}`;
+  }
 
+  if (process.env.SPOTIFY_CLIENT_TOKEN) {
+    headers["client-token"] = process.env.SPOTIFY_CLIENT_TOKEN.trim();
+  }
+
+  Object.entries(overrides || {}).forEach(([key, value]) => {
     if (typeof value === "string" && value.trim() !== "") {
       headers[key.toLowerCase()] = value.trim();
     }
