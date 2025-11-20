@@ -97,6 +97,17 @@ function buildRequestBody(query) {
   };
 }
 
+function buildRequestUrl(searchTerm) {
+  const trimmed = typeof searchTerm === "string" ? searchTerm.trim() : "";
+
+  if (!trimmed) {
+    return API_URL;
+  }
+
+  const encodedSearchTerm = encodeURIComponent(trimmed);
+  return `${API_URL}?searchTerm=${encodedSearchTerm}`;
+}
+
 function buildUrlFromUri(uri) {
   if (typeof uri !== "string") {
     return null;
@@ -148,7 +159,7 @@ function parseProfiles(responseJson, query) {
 }
 
 async function fetchSearchResults(headers, query) {
-  const response = await fetch(API_URL, {
+  const response = await fetch(buildRequestUrl(query), {
     method: "POST",
     headers,
     body: JSON.stringify(buildRequestBody(query)),
