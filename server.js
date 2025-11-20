@@ -14,6 +14,14 @@ const HEADERS_FILE = path.join(DATA_DIR, "headers.json");
 
 const API_URL = "https://api-partner.spotify.com/pathfinder/v2/query";
 
+const SCRAPE_NINJA_ENDPOINT = "https://scrapeninja.p.rapidapi.com/scrape";
+const SCRAPE_NINJA_HOST = "scrapeninja.p.rapidapi.com";
+const DEFAULT_SCRAPE_NINJA_API_KEY =
+  "455e2a6556msheffc310f7420b51p102ea0jsn1c531be1e299";
+const SCRAPE_NINJA_API_KEY =
+  process.env.SCRAPE_NINJA_API_KEY || DEFAULT_SCRAPE_NINJA_API_KEY;
+const USE_SCRAPE_NINJA = process.env.USE_SCRAPE_NINJA === "true";
+
 const DB_CONFIG = {
   host: process.env.DB_HOST || "3.140.167.34",
   port: Number.parseInt(process.env.DB_PORT, 10) || 5432,
@@ -218,6 +226,39 @@ function parseProfiles(responseJson, query) {
 }
 
 async function fetchSearchResults(headers, query) {
+  if (USE_SCRAPE_NINJA) {
+    const scrapeResponse = await fetch(SCRAPE_NINJA_ENDPOINT, {
+      method: "POST",
+      headers: {
+        "content-type": "application/json",
+        "x-rapidapi-host": SCRAPE_NINJA_HOST,
+        "x-rapidapi-key": SCRAPE_NINJA_API_KEY,
+      },
+      body: JSON.stringify({
+        url: API_URL,
+        method: "POST",
+        headers,
+        body: JSON.stringify(buildRequestBody(query)),
+      }),
+    });
+
+    if (!scrapeResponse.ok) {
+      const text = await scrapeResponse.text();
+      throw new Error(
+        `Scrape Ninja request failed with status ${scrapeResponse.status}: ${text.slice(0, 200)}`
+      );
+    }
+
+    const result = await scrapeResponse.json();
+    const parsedBody = result?.body ? JSON.parse(result.body) : null;
+
+    if (!parsedBody) {
+      throw new Error("Scrape Ninja response did not include a parsable body.");
+    }
+
+    return parsedBody;
+  }
+
   const response = await fetch(API_URL, {
     method: "POST",
     headers,
