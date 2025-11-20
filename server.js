@@ -30,6 +30,10 @@ const DEFAULT_HEADERS = {
   accept: "application/json",
   "accept-language": "en",
   "app-platform": "WebPlayer",
+  authorization: process.env.SPOTIFY_AUTHORIZATION
+    ? `Bearer ${process.env.SPOTIFY_AUTHORIZATION}`
+    : "",
+  "client-token": process.env.SPOTIFY_CLIENT_TOKEN || "",
   "content-type": "application/json;charset=UTF-8",
   origin: "https://open.spotify.com",
   referer: "https://open.spotify.com/",
@@ -60,14 +64,6 @@ async function loadHeaderOverrides() {
 
 function buildRequestHeaders(overrides) {
   const headers = { ...DEFAULT_HEADERS };
-
-  if (process.env.SPOTIFY_AUTH_TOKEN) {
-    headers.authorization = `Bearer ${process.env.SPOTIFY_AUTH_TOKEN.trim()}`;
-  }
-
-  if (process.env.SPOTIFY_CLIENT_TOKEN) {
-    headers["client-token"] = process.env.SPOTIFY_CLIENT_TOKEN.trim();
-  }
 
   Object.entries(overrides || {}).forEach(([key, value]) => {
     if (typeof value === "string" && value.trim() !== "") {
@@ -101,17 +97,6 @@ function buildRequestBody(query) {
   };
 }
 
-function buildRequestUrl(searchTerm) {
-  const trimmed = typeof searchTerm === "string" ? searchTerm.trim() : "";
-
-  if (!trimmed) {
-    return API_URL;
-  }
-
-  const encodedSearchTerm = encodeURIComponent(trimmed);
-  return `${API_URL}?searchTerm=${encodedSearchTerm}`;
-}
-
 function buildUrlFromUri(uri) {
   if (typeof uri !== "string") {
     return null;
@@ -136,7 +121,6 @@ function buildUrlFromUri(uri) {
 function parseProfiles(responseJson, query) {
   const items = responseJson?.data?.searchPodcasts?.items;
 
-  console.log(items)
   if (!Array.isArray(items)) {
     return [];
   }
@@ -163,7 +147,7 @@ function parseProfiles(responseJson, query) {
 }
 
 async function fetchSearchResults(headers, query) {
-  const response = await fetch(buildRequestUrl(query), {
+  const response = await fetch(API_URL, {
     method: "POST",
     headers,
     body: JSON.stringify(buildRequestBody(query)),
@@ -221,6 +205,12 @@ async function main() {
 
   const headerOverrides = await loadHeaderOverrides();
   const headers = buildRequestHeaders(headerOverrides);
+
+  if (!headers.authorization || !headers["client-token"]) {
+    console.warn(
+      "Warning: authorization or client-token header is missing. Requests may fail."
+    );
+  }
 
   const pool = new Pool(DB_CONFIG);
 
