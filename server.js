@@ -172,7 +172,7 @@ function extractPodcastItems(responseJson) {
 
   return candidateArrays.find(Array.isArray) || [];
 }
-
+ 
 function parseProfiles(responseJson, query) {
   if (Array.isArray(responseJson?.errors) && responseJson.errors.length) {
     const message = responseJson.errors
