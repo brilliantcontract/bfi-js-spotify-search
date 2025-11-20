@@ -151,7 +151,7 @@ function buildUrlFromUri(uri) {
 
 function parseProfiles(responseJson, query) {
   const items = responseJson?.data?.searchPodcasts?.items;
-
+console.log(items)
   if (!Array.isArray(items)) {
     return [];
   }
