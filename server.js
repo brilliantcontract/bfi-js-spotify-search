@@ -182,7 +182,7 @@ function extractPodcastItems(responseJson) {
 
   return candidateArrays.find(Array.isArray) || [];
 }
- 
+
 function parseProfiles(responseJson, query) {
   if (Array.isArray(responseJson?.errors) && responseJson.errors.length) {
     const message = responseJson.errors
@@ -327,7 +327,7 @@ async function main() {
 
   const pool = new Pool(DB_CONFIG);
   pool.on("error", (error) => {
-    console.error("Unexpected database pool error:", error);
+    console.error("Unexpected PostgreSQL pool error:", error);
   });
 
   try {
