@@ -34,6 +34,8 @@ const FETCH_QUERIES_SQL = "select query from spotify.not_scraped_queries_vw";
 const INSERT_SEARCH_SQL =
   "insert into spotify.searches(author_name, profile_title, query, url) values ($1, $2, $3, $4)";
 
+const clientErrorListenerSet = new WeakSet();
+
 function buildAuthorizationHeader(value) {
   if (!value || typeof value !== "string") {
     return "";
@@ -291,9 +293,12 @@ async function saveProfiles(pool, profiles) {
   }
 
   const client = await pool.connect();
-  client.on("error", (error) => {
-    console.error("Database client error:", error);
-  });
+  if (!clientErrorListenerSet.has(client)) {
+    client.on("error", (error) => {
+      console.error("Database client error:", error);
+    });
+    clientErrorListenerSet.add(client);
+  }
 
   try {
     await client.query("BEGIN");
