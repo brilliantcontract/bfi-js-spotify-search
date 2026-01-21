@@ -291,6 +291,9 @@ async function saveProfiles(pool, profiles) {
   }
 
   const client = await pool.connect();
+  client.on("error", (error) => {
+    console.error("Database client error:", error);
+  });
 
   try {
     await client.query("BEGIN");
@@ -323,6 +326,9 @@ async function main() {
   validateAuthHeaders(headers);
 
   const pool = new Pool(DB_CONFIG);
+  pool.on("error", (error) => {
+    console.error("Unexpected database pool error:", error);
+  });
 
   try {
     const queries = await loadQueries(pool);
