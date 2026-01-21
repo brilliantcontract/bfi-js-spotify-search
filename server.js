@@ -123,14 +123,14 @@ function validateAuthHeaders(headers) {
   }
 }
 
-function buildRequestBody(query) {
+function buildRequestBody(query, offset, limit) {
   return {
     variables: {
       includePreReleases: false,
       numberOfTopResults: 20,
       searchTerm: query,
-      offset: 0,
-      limit: 30,
+      offset,
+      limit,
       includeAudiobooks: true,
       includeAuthors: false,
     },
@@ -138,7 +138,7 @@ function buildRequestBody(query) {
     extensions: {
       persistedQuery: {
         version: 1,
-        sha256Hash: "f4d1e6ff2422dd998e26ba696e853e4372811843361e91105f736d128d3d64e0",
+        sha256Hash: "0195d9f61b43606d490bca64c3456e3593528cea6cc05c7e822c7c42beed0f4e",
       },
     },
   };
@@ -227,7 +227,7 @@ function parseProfiles(responseJson, query) {
     .filter(Boolean);
 }
 
-async function fetchSearchResults(headers, query) {
+async function fetchSearchResults(headers, query, offset, limit) {
   if (USE_SCRAPE_NINJA) {
     const scrapeResponse = await fetch(SCRAPE_NINJA_ENDPOINT, {
       method: "POST",
@@ -240,7 +240,7 @@ async function fetchSearchResults(headers, query) {
         url: API_URL,
         method: "POST",
         headers,
-        body: JSON.stringify(buildRequestBody(query)),
+        body: JSON.stringify(buildRequestBody(query, offset, limit)),
       }),
     });
 
@@ -264,7 +264,7 @@ async function fetchSearchResults(headers, query) {
   const response = await fetch(API_URL, {
     method: "POST",
     headers,
-    body: JSON.stringify(buildRequestBody(query)),
+    body: JSON.stringify(buildRequestBody(query, offset, limit)),
   });
 
   if (!response.ok) {
@@ -336,16 +336,37 @@ async function main() {
 
     for (const query of queries) {
       try {
-        const responseJson = await fetchSearchResults(headers, query);
-        const profiles = parseProfiles(responseJson, query);
-        
-        if (!profiles.length) {
-          console.warn(`No profiles returned for query: ${query}`);
-          continue;
+        let offset = 0;
+        const limit = 30;
+        let totalInserted = 0;
+
+        while (true) {
+          const responseJson = await fetchSearchResults(
+            headers,
+            query,
+            offset,
+            limit
+          );
+          const searchV2Items = responseJson?.data?.searchV2?.podcasts?.items;
+
+          if (!Array.isArray(searchV2Items) || searchV2Items.length === 0) {
+            if (offset === 0) {
+              console.warn(`No profiles returned for query: ${query}`);
+            }
+            break;
+          }
+
+          const profiles = parseProfiles(responseJson, query);
+          const inserted = await saveProfiles(pool, profiles);
+          totalInserted += inserted;
+          offset += limit;
         }
 
-        const inserted = await saveProfiles(pool, profiles);
-        console.log(`Saved ${inserted} profile${inserted === 1 ? "" : "s"} for query "${query}".`);
+        if (totalInserted > 0) {
+          console.log(
+            `Saved ${totalInserted} profile${totalInserted === 1 ? "" : "s"} for query "${query}".`
+          );
+        }
       } catch (error) {
         console.error(`Failed to process query "${query}": ${error.message}`);
       }
