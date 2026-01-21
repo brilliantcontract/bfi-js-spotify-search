@@ -327,8 +327,9 @@ async function main() {
 
   const pool = new Pool(DB_CONFIG);
   pool.on("error", (error) => {
-    console.error("Unexpected PostgreSQL pool error:", error);
+    console.error("Unexpected database pool error:", error);
   });
+
 
   try {
     const queries = await loadQueries(pool);
